@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dfdf7d7-556d-4ec6-b839-ade7c60d2b58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io.ori/io.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log_knowledge_volatile-atomic.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log_knowledge_volatile-visibility.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/artifacts/Exodus_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/Exodus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/data_structure/collection/DemoHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/data_structure/collection/DemoTreeSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/data_structure/collection/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/dp_training/DemoGiveChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/dp_training/IOfficialMoney.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoClimbStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoFindDisappearedNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoHouseRobber$Money.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoHouseRobber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoMajorityElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoMaxSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoMoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoSingleNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/DemoSendRedEnvelopes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/swing/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/swing/fireworks/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/swing/fireworks/Fragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/swing/fireworks/MyFireworks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/swing/fireworks/MyFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/application/swing/fireworks/MyPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/DesignPatternMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/DemoAbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/ICommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/IConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/IDBComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/MySQLCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/MySQLConcreteComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/MySQLConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/OracleCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/OracleConcreteComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/abstract_factory/OracleConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/AlternatePower220Adaptee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/AlternatePower380Adaptee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/AlternatePowerAdaptee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/DefaultAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/DemoAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/DemoAdapter$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/DemoAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/DirectPowerTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/PowerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/PowerAdapter1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/PowerAdapter2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/PowerTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/adapter/SampleOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/ConcreteBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/DemoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/DemoImmutableClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/ImmutableClass$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/ImmutableClass$ConcreteBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/ImmutableClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/Ceiling.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/DemoBuildHouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/Door.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/Floor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/HouseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/HouseConstructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/builder/build_house/Window.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/ConcreteProductA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/ConcreteProductB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/DemoFactoryMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/IProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/ProductA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/factory_method/ProductB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/DemoSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/EnumSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/HungrySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/LazySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton$EnumHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/IoC_DI/MySpring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/JSR133/DemoVolatileAtomic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/JSR133/DemoVolatileVisibility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/JSR133/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/lambda/DemoLambda$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/lambda/DemoLambda$1LengthComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/lambda/DemoLambda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/modifier/DemoDefault$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/modifier/DemoDefault.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/modifier/DemoFinal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/modifier/FinalClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/modifier/IMySqrt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/modifier/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/reflection/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/reflection/DemoReflection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/reflection/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/stream/DemoStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread_pool/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/time/DemoDateCalendar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/time/DemoPerpetualCalendar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/util/log4j_util/Log4JUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/io.ori/io.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/io.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/logs/log_knowledge_volatile-atomic.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/logs/log_knowledge_volatile-visibility.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/src/com/conque_java/knowledge/JSR133/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/data_structure/collection/DemoTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/application/DemoSendRedEnvelopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/abstract_factory/DemoAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/adapter/DemoAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/builder/DemoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/builder/DemoImmutableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/builder/build_house/DemoBuildHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/factory_method/DemoFactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/prototype/DemoPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JSR133/DemoVolatileAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JSR133/DemoVolatileBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JSR133/DemoVolatileReorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JSR133/DemoVolatileVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JSR133/UnsafeInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JSR133/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/annotation/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/generic/DemoGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/generic/FruitGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/generic/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/lambda/DemoLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/modifier/DemoDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/DemoDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/DemoJVMBytecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/IAppleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/ProxyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/UserServiceCglibImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/UserServiceCglibInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/UserServiceProxyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/dynamic_proxy/UserServiceProxyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/AppleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/DemoStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/MockPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/MockPhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/PhoneStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/ProxyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/iPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/proxy/static_proxy/iPhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/stream/DemoNIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/stream/DemoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_pool/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/time/DemoDateCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/time/DemoPerpetualCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/util/log4j_util/Log4JUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exodus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exodus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/AlexMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/AlexMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/annotation/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/annotation/MyAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/annotation/ParseAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/annotation/ParseAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread_pool/DemoJVMThreadKLT$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread_pool/DemoJVMThreadKLT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread_pool/DemoJVMThreadKLT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/AlexMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/AlexMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/DemoSendRedEnvelopes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/dp_training/DemoGiveChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/dp_training/DemoGiveChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/dp_training/IOfficialMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/dp_training/IOfficialMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoHouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoHouseRobber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoMaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoMaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoMoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoMoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoSingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoSingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/application/swing/fireworks/MyFireworks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/application/swing/fireworks/MyFireworks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/design_pattern/singleton/DemoSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/singleton/DemoSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/IoC_DI/MySpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/IoC_DI/MySpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/annotation/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/annotation/ParseAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/annotation/ParseAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/modifier/DemoFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/modifier/DemoFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/reflection/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/reflection/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/reflection/DemoReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/reflection/DemoReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/reflection/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/reflection/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_pool/DemoJVMThreadKLT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_pool/DemoJVMThreadKLT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Exodus" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="AnnotationType" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1V1a49xJpUQ8UiN12a4f5pnmJve" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/Software/Java/jar/cglib-3.3.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.conque_java.design_pattern.builder.build_house" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\JSR133" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\prototype" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\builder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DemoThreadState">
+    <configuration name="DemoLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.lambda.DemoLambda" />
+      <module name="Exodus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.reflection.DemoMain" />
+      <module name="Exodus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoThreadControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.thread.DemoThreadControl" />
+      <module name="Exodus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.thread.DemoThreadState" />
+      <module name="Exodus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.annotation.ParseAnnotation" />
+      <module name="Exodus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoThreadState" />
+        <item itemvalue="Application.DemoThreadControl" />
+        <item itemvalue="Application.DemoMain" />
+        <item itemvalue="Application.DemoLambda" />
+        <item itemvalue="Application.ParseAnnotation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Notifications" timestamp="1583251004974">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1583251004974" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582379384792">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582379384792" />
+    <state x="458" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580879304461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="458" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580879304461" />
+    <state x="872" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1585416101392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="872" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585416101392" />
+    <state x="458" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581781229804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="458" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1581781229804" />
+    <state x="339" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584723553434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1584723553434" />
+    <state x="479" y="223" width="504" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584981094089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="223" width="504" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1584981094089" />
+    <state x="526" y="235" width="468" height="258" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581781243878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="235" width="468" height="258" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1581781243878" />
+    <state x="339" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582382814542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582382814542" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583557888720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583557888720" />
+    <state x="879" y="108" key="#xdebugger.evaluate" timestamp="1583553201408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="879" y="108" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1583553201408" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1578723427077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578723427077" />
+    <state x="390" y="128" key="FileChooserDialogImpl" timestamp="1582388387555">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="128" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582388387555" />
+    <state width="1323" height="219" key="GridCell.Tab.0.bottom" timestamp="1585587145243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585587145243" />
+    <state width="1323" height="219" key="GridCell.Tab.0.center" timestamp="1585587145243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585587145243" />
+    <state width="1323" height="219" key="GridCell.Tab.0.left" timestamp="1585587145243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585587145243" />
+    <state width="1323" height="219" key="GridCell.Tab.0.right" timestamp="1585587145243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585587145243" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585242892764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585242892764" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1585242892764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585242892764" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1585242892764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585242892764" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1585242892764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585242892764" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1582388392427">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582388392427" />
+    <state x="544" y="142" key="chooseDestDirectoryDialog" timestamp="1581781216750">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="544" y="142" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581781216750" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585543849168">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585543849168" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580188323331">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580188323331" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1585421250477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585421250477" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585994077941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585994077941" />
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585586963885">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1585586963885" />
+  </component>
+</project>

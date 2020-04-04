@@ -1,12 +1,13 @@
 package com.conque_java.knowledge.thread_pool;
 
-import javafx.concurrent.Task;
 import sun.java2d.DisposerTarget;
 import sun.security.util.BitArray;
 
 import java.util.concurrent.*;
 
 /**
+ * Java基础知识回顾 - https://www.sohu.com/a/230131721_100160633
+ *
  * https://www.cnblogs.com/fengff/p/9622026.html 参考
  * https://www.jianshu.com/p/2dc01727be45 参考
  * https://blog.csdn.net/weixin_43258908/article/details/89417917 参考
@@ -25,34 +26,76 @@ import java.util.concurrent.*;
  * IO密集型：线程池数量可以多点
  * CPU密集型：线程池数量只能少点
  *
- * 阻塞队列：任一时刻，只能一个线程对其进行或存或取操作(其余线程只能等待)。
+ * 阻塞队列：线程安全。任一时刻，永远只能一个线程对其进行或存或取(入队|出队)操作(其余线程只能等待)。队列空时，只能进行入队操作，所有出队操作等待；队列满时，只能进行出队操作，所有入队操作等待。
  * 1) ArrayBlockingQueue有界队列;
  * 2) LinkedBlockingDeque最大值是Integer.MAX_VALUE(2147483647);
  * 3) PriorityBlockingQueue无界队列;
+ *
+ * [ThreadPoolExecutor源码解读]
+ *     // 控制变量(利用位运算实现一个变量多重功能)
+ *     private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
+ *     // COUNT_BITS = 29
+ *     private static final int COUNT_BITS = Integer.SIZE - 3;
+ *     // CAPACITY = (1 << 29) - 1 == 2^29 - 1 = 536870911
+ *     private static final int CAPACITY   = (1 << COUNT_BITS) - 1;
+ *
+ *     // runState is stored in the high-order bits
+ *     private static final int RUNNING    = -1 << COUNT_BITS;
+ *     private static final int SHUTDOWN   =  0 << COUNT_BITS;
+ *     private static final int STOP       =  1 << COUNT_BITS;
+ *     private static final int TIDYING    =  2 << COUNT_BITS;
+ *     private static final int TERMINATED =  3 << COUNT_BITS;
+ *
+ *     // Packing and unpacking ctl
+ *     private static int runStateOf(int c)     { return c & ~CAPACITY; }
+ *     private static int workerCountOf(int c)  { return c & CAPACITY; }
+ *     private static int ctlOf(int rs, int wc) { return rs | wc; }
+ *
  */
 public class DemoJVMThreadKLT {
     private static final int THREAD_POOL_SIZE = 100;
-    final ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 4, 60, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(8), Executors.defaultThreadFactory());
+    //final ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 4, 60, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(8), Executors.defaultThreadFactory());
 
     public static void main(String[] args) {
-        for (int i = 0; i < THREAD_POOL_SIZE; i++) {
-            Thread t = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    while (true) {
-                        try {
-                            Thread.sleep(1000);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-            });
-            t.start();
+//        for (int i = 0; i < THREAD_POOL_SIZE; i++) {
+//            Thread t = new Thread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    while (true) {
+//                        try {
+//                            Thread.sleep(1000);
+//                        } catch (InterruptedException e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                }
+//            });
+//            t.start();
+//        }
+
+        final ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 3, 60, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(5), Executors.defaultThreadFactory());
+
+        for (int i = 0; i < 9; i++) {
+            pool.execute(new Task(i));
         }
 
-        final ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 4, 60, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(8), Executors.defaultThreadFactory());
+        pool.shutdownNow();
 
-
+        int COUNT_BITS = Integer.SIZE - 3;
+        int CAPACITY   = (1 << COUNT_BITS) - 1;
+        System.out.println(COUNT_BITS);
+        System.out.println(CAPACITY);
+        System.out.println(-1 << COUNT_BITS);
+        System.out.println((-1 << COUNT_BITS) & ~CAPACITY);
+        int bit_1 = (-1 << COUNT_BITS) & ~CAPACITY;
+        System.out.println(bit_1);
+        System.out.println(0 << COUNT_BITS);
+        System.out.println((0 << COUNT_BITS) & ~CAPACITY);
+        System.out.println(1 << COUNT_BITS);
+        System.out.println((1 << COUNT_BITS) & ~CAPACITY);
+        System.out.println(2 << COUNT_BITS);
+        System.out.println((2 << COUNT_BITS) & ~CAPACITY);
+        System.out.println(3 << COUNT_BITS);
+        System.out.println((3 << COUNT_BITS) & ~CAPACITY);
     }
 }

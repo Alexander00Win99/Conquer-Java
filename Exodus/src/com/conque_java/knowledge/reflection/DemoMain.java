@@ -1,9 +1,15 @@
 package com.conque_java.knowledge.reflection;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import org.w3c.dom.ls.LSOutput;
+
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 /**
+ * 【简述】
+ * 类是对于对象的抽象；反射是对于类的抽象。利用反射我们可以直接操作类，进而可以间接操作对象。
+ *
  * 【通常的抽象】
  * 通常来说，抽象是指在认识上把事物的规定、属性、关系从原来有机联系的整体中孤立地抽取出来；具体是指尚未经过这种抽象的感性对象。
  *
@@ -36,17 +42,21 @@ import java.util.ArrayList;
 public class DemoMain {
     public static void main(String[] args) {
         try {
+            System.out.println("++++++++++++++++Begin-反射常用方法++++++++++++++++");
+            // 1) Class.forName("fullname")
             Class clazz = Class.forName("com.conque_java.knowledge.reflection.People");
-            System.out.println(clazz);
+            System.out.println("1) Class.forName(\"fullname\")获取：" + clazz);
             System.out.println(clazz.getSuperclass());
+            // 使用默认构造器生成对象
             People people = (People) clazz.newInstance();
             System.out.println("Instantiation for class " + clazz + " is as blow:");
             System.out.println(people);
 
             System.out.println(clazz.getFields().length);
-            Field[] fs = clazz.getDeclaredFields();
-            System.out.println(fs.length);
-            for (Field f : fs) {
+            Field[] fields = clazz.getDeclaredFields();
+            System.out.println("People对象当前属性数量：" + fields.length);
+            System.out.println("People对象当前属性如下：");
+            for (Field f : fields) {
                 System.out.println(f);
             }
             Field fName = clazz.getDeclaredField("name");
@@ -60,8 +70,15 @@ public class DemoMain {
             fSex.set(people, true);
             System.out.println(people);
 
+            // 使用“属性.set(对象, 数值)”形式赋值
             fName.set(people, "Alex Wen");
-            System.out.println(people);
+            System.out.println("重新赋值以后，对象更新为：" + people);
+            // 使用“属性.get(对象)”形式取值
+            String name = (String) fName.get(people);
+            System.out.println("重新赋值以后，姓名更新为：" + name);
+            System.out.println("属性名字：" + fName.getName());
+            System.out.println("属性类型：" + fName.getType().getSimpleName());
+            System.out.println("属性修饰符：" + fName.getModifiers());
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -72,31 +89,40 @@ public class DemoMain {
             e.printStackTrace();
         }
 
+        // 2) 类.class
         Class peopleClass = People.class;
-        System.out.println(peopleClass);
-        System.out.println(peopleClass.getModifiers());
+        System.out.println("2) 类.class获取：" + peopleClass);
+        System.out.println("类的modifier为：" + peopleClass.getModifiers());
 
+        // 3) 对象.getClass()
         People p = new People("Alexander 温", 18, true);
         Class pClass = p.getClass();
-        System.out.println(pClass);
-        System.out.println(pClass.getName());
-        System.out.println(pClass.getPackage());
-        System.out.println(pClass.getSimpleName());
+        System.out.println("3) 对象.getClass()获取：" + pClass);
+        System.out.println("类的名字为：" + pClass.getName());
+        System.out.println("类的简名为：" + pClass.getSimpleName());
+        if (pClass.getInterfaces().length > 0)
+            for (Class c : pClass.getInterfaces())
+                System.out.println("类实现的接口为：" + pClass.getInterfaces()[0].getSimpleName());
+        System.out.println("类所属的包为：" + pClass.getPackage());
+        System.out.println("----------------End-反射常用方法----------------");
 
+        System.out.println("++++++++++++++++Begin-通过反射打印继承体系以及实现接口++++++++++++++++");
         ArrayList<String> list = new ArrayList<>();
         Class listClass = ArrayList.class;
         System.out.println("The hierarchy of inherited class of " + listClass + " is:");
         Class c = listClass.getSuperclass();
         while (c != null) {
-            System.out.println(c);
-            c = c.getSuperclass();
+            System.out.println("\t" + c);
+            c = c.getSuperclass(); // 自底向上逐级打印父类
         }
         System.out.println("The interfaces implemented by class of " + listClass + " is:");
         Class[] interfaces = listClass.getInterfaces();
         for (Class anInterface : interfaces) {
-            System.out.println(anInterface);
+            System.out.println("\t" + anInterface);
         }
+        System.out.println("----------------End-通过反射打印继承体系以及实现接口----------------");
 
+        System.out.println("++++++++++++++++Begin-通过反射修改字符串值++++++++++++++++");
         String fixedString = "xyz";
         System.out.println(fixedString);
         Class strCls = String.class;
@@ -108,13 +134,13 @@ public class DemoMain {
             value[0] = '温';
             value[1] = '瑞';
             value[2] = '枫';
-//            value[3] = '!';
-            System.out.println(fixedString);
+            //value[3] = '!'; // 报错：java.lang.ArrayIndexOutOfBoundsException: 3
+            System.out.println("fixedString经过反射操作以后：" + fixedString);
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-
+        System.out.println("----------------End-通过反射修改字符串值----------------");
     }
 }

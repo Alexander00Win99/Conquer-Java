@@ -1,6 +1,8 @@
 package com.conque_java.knowledge.reflection;
 
-public class People {
+import java.io.Serializable;
+
+public class People implements Serializable {
     private String name;
     private int age;
     private boolean sex;
