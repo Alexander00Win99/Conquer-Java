@@ -6,6 +6,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
+ * LeetCode-226
+ *
  * Breath First Search(BFS) VS (DFS)Depth First Search
  * 广度优先遍历(搜索) + 深度优先遍历(搜索)
  * 深度优先遍历分为：前序DLR + 中序LDR + 后序LRD
@@ -94,42 +96,5 @@ public class DemoInvertTree {
 
     public static void main(String[] args) {
 
-    }
-
-    public void reenterBlocked() throws InterruptedException {
-        class Account {
-            int amount = 0;
-            synchronized void deposit(int cash) {
-                amount += cash;
-                notify();
-                try {
-                    Thread.sleep(60000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    throw new RuntimeException(e);
-                }
-            }
-            synchronized void withdraw(int cash) {
-                while (cash > amount) {
-                    try {
-                        wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                        throw new RuntimeException(e);
-                    }
-                }
-                amount -= cash;
-            }
-        }
-
-        Account account = new Account();
-        Thread withdraw = new Thread(() -> account.withdraw(100), "取钱线程");
-        withdraw.start();
-        assert(withdraw.getState().equals(Thread.State.WAITING));
-        Thread.sleep(1000);
-        Thread deposit = new Thread(() -> account.deposit(100), "存钱线程");
-        deposit.start();
-        Thread.sleep(1000);
-        assert(withdraw.getState().equals(Thread.State.BLOCKED));
     }
 }

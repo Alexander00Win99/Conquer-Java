@@ -9,15 +9,15 @@ public class DemoThreadState {
     /**
      * 3) WAITING
      * 定义：A thread that is waiting indefinitely for another thread to perform a particular action is in this state.
-     * 触发动作：
-     * A thread is in the waiting state due to calling one of the following methods:
-     *
-     * Object.wait with no timeout
-     * Thread.join with no timeout
-     * LockSupport.park
-     * A thread in the waiting state is waiting for another thread to perform a particular action. For example,
-     * a thread that has called Object.wait() on an object is waiting for another thread to call Object.notify() or Object.notifyAll() on that object.
-     * A thread that has called Thread.join() is waiting for a specified thread to terminate.
+     *      * 触发动作：
+     *      * A thread is in the waiting state due to calling one of the following methods:
+     *      *
+     *      * Object.wait with no timeout
+     *      * Thread.join with no timeout
+     *      * LockSupport.park
+     *      * A thread in the waiting state is waiting for another thread to perform a particular action. For example,
+     *      * a thread that has called Object.wait() on an object is waiting for another thread to call Object.notify() or Object.notifyAll() on that object.
+     *      * A thread that has called Thread.join() is waiting for a specified thread to terminate.
      *
      * 4) TIMED_WAITING
      * 定义：A thread that is waiting for another thread to perform an action for up to a specified waiting time is in this state.
@@ -74,7 +74,7 @@ public class DemoThreadState {
      * 不过，这是一个不确定的等待，可能等待（当无法获取锁时），也可能不等待（当能够获取锁时）。陷入这种阻塞以后没有自主退出的机制。
      * 另外一点需要注意的是，BLOCKED状态是与Java语言级别的synchronized机制相关的，我们知道在Java 5.0之后引入了更多的机制（java.util.concurrent），除了可以用synchronized这种内部锁，也可以使用外部的显式锁。
      * 显式锁有一些更好的特性，比如能被中断，能够设置获取锁的超时，能够有多个条件等等，尽管从表面上看，当显式锁无法获取时，我们还是宣称线程被“阻塞”了，但是此时未必是BLOCKED状态。
-     * 2) WAITING状态属于线程自身主动地、显式地申请阻塞(LOCKED属于被动的阻塞)，但是无论从字面还是从根本上来看，两者之间并无本质的区别。
+     * 2) WAITING状态属于线程自身主动地、显式地申请阻塞(BLOCKED属于被动的阻塞)，但是无论从字面还是从根本上来看，两者之间并无本质的区别。
      * 3) TIMED_WAITING相对前面两者陷入阻塞以后具备超时自主退出的机制。
      * 4) 所有三个状态可以认为是传统OS中的线程/进程状态waiting在JVM层面的一个细分。
      *
@@ -123,6 +123,185 @@ public class DemoThreadState {
         assert(serverThread.getState().equals(Thread.State.RUNNABLE));
     }
 
+    // synchronized方法导致BLOCKED
+    public static void testBlocked() throws InterruptedException {
+        class Counter {
+            int counter;
+            public synchronized void increase() {
+                counter++;
+                try {
+                    Thread.sleep(30000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+            public synchronized void decrease() {
+                counter--;
+                try {
+                    Thread.sleep(30000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
+
+        Counter counter = new Counter();
+        Thread t1 = new Thread(() -> counter.increase(), "t1线程");
+        t1.start();
+        Thread t2 = new Thread(() -> counter.increase(), "t2线程");
+        t2.start();
+        Thread.sleep(1000); // 确保t1、t2已经运行
+        System.out.println("t1线程当前状态：" + t1.getState());
+        System.out.println("t2线程当前状态：" + t2.getState());
+        assert(t2.getState()).equals(Thread.State.BLOCKED);
+    }
+
+    // 重入synchronized方法导致BLOCKED
+    public static void testReenterBlocked() throws InterruptedException {
+        class Account {
+            int amount = 0;
+            synchronized void deposit(int cash) {
+                amount += cash;
+                notify();
+                try {
+                    Thread.sleep(30000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                    throw new RuntimeException(e);
+                }
+            }
+            synchronized void withdraw(int cash) {
+                while (cash > amount) {
+                    try {
+                        wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                        throw new RuntimeException(e);
+                    }
+                }
+                amount -= cash;
+            }
+        }
+
+        Account account = new Account();
+        Thread withdraw = new Thread(() -> account.withdraw(100), "取钱线程");
+        withdraw.start();
+        Thread.sleep(1000); // 确保取钱线程已经运行，如果只是start，尚未运行run，则会处于Thread.State.RUNNABLE状态。
+        System.out.println("取钱线程当前状态：" + withdraw.getState());
+        assert(withdraw.getState().equals(Thread.State.WAITING));
+        Thread.sleep(1000);
+        Thread deposit = new Thread(() -> account.deposit(100), "存钱线程");
+        deposit.start();
+        Thread.sleep(1000); // 确保存钱线程已经运行，但是依然处于TIMED_WAITING状态，没有释放锁。
+        System.out.println("存钱线程当前状态：" + deposit.getState());
+        assert(withdraw.getState().equals(Thread.State.TIMED_WAITING));
+        System.out.println("取钱线程当前状态：" + withdraw.getState());
+        assert(withdraw.getState().equals(Thread.State.BLOCKED));
+    }
+
+    // synchronized对象导致BLOCKED
+    public static void testBlockedState() throws InterruptedException {
+        class Toilet {
+            public void pee() {
+                try {
+                    Thread.sleep(30000); // 研究表明，动物尿尿时间一般都在30s以内
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        Toilet toilet = new Toilet();
+
+        Thread passenger1 = new Thread(() -> {
+            synchronized (toilet) {
+                toilet.pee();
+            }
+        }, "乘客1");
+        Thread passenger2 = new Thread(() -> {
+            synchronized (toilet) {
+                toilet.pee();
+            }
+        }, "乘客1");
+        passenger1.start();
+        Thread.sleep(1000); // 确保乘客1线程首先运行
+        passenger2.start();
+        System.out.println("乘客1线程当前状态是：" + passenger1.getState());
+        assert(passenger1.getState().equals(Thread.State.TIMED_WAITING));
+        System.out.println("乘客2线程当前状态是：" + passenger2.getState());
+        assert(passenger2.getState().equals(Thread.State.BLOCKED));
+    }
+
+    public static void testWaitingState() throws InterruptedException {
+        class Toilet {
+            int paperCount = 0;
+            public void pee() {
+                try {
+                    Thread.sleep(30000); // 研究表明，动物尿尿时间一般都在30s以内
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        Toilet toilet = new Toilet();
+
+        Thread[] passengers = new Thread[10];
+        for (int i = 0; i < passengers.length; i++) {
+            passengers[i] = new Thread(() -> {
+                synchronized (toilet) {
+                    while (toilet.paperCount <= 0) {
+                        try {
+                            toilet.wait();
+                        } catch (InterruptedException e) {
+                            Thread.currentThread().interrupt();
+                            e.printStackTrace();
+                        }
+                    }
+                    toilet.paperCount--;
+                    toilet.pee();
+                }
+            }, "乘客" + i);
+        }
+        for (int i = 0; i < passengers.length; i++) {
+            passengers[i].start();
+        }
+        Thread.sleep(1000); // 确保乘客线程已经运行
+        for (int i = 0; i < passengers.length; i++) {
+            System.out.println("乘务员加纸之前，乘客" + i + "线程当前状态是：" + passengers[i].getState());
+        }
+
+        Thread steward = new Thread(() -> {
+            synchronized (toilet) {
+                toilet.paperCount += 10;
+                toilet.notifyAll();
+            }
+        }, "乘务员");
+        steward.start();
+        Thread.sleep(1000); // 确保乘务员线程已经运行
+        for (int i = 0; i < passengers.length; i++) {
+            System.out.println("乘务员加纸之后，乘客" + i + "线程当前状态是：" + passengers[i].getState());
+        }
+        Thread.sleep(30000); // 确保乘客尿尿完成
+        for (int i = 0; i < passengers.length; i++) {
+            System.out.println("一个乘客如厕之后，乘客" + i + "线程当前状态是：" + passengers[i].getState());
+        }
+
+        boolean passengersBlocked = false;
+        for (int i = 0; i < passengers.length; i++) {
+            passengersBlocked |= passengers[i].getState().equals(Thread.State.BLOCKED);
+        }
+        System.out.println("当前有BLOCKED的乘客？" + passengersBlocked);
+
+        boolean passengersTimedWaiting = false;
+        for (int i = 0; i < passengers.length; i++) {
+            passengersTimedWaiting |= passengers[i].getState().equals(Thread.State.TIMED_WAITING);
+        }
+        System.out.println("当前有TIMED_WAITING的乘客？" + passengersTimedWaiting);
+    }
+
     public static void testTimedWaitingState() throws InterruptedException {
         class Toilet {
             int paperCount = 0;
@@ -143,7 +322,7 @@ public class DemoThreadState {
                 toilet.paperCount += 10;
                 //toilet.notifyAll(); // 粗心的乘务员忘记通知处于BLOCKED队列的乘客
             }
-        }, "乘客1");
+        }, "乘务员");
 
         Thread passenger1 = new Thread(() -> {
             synchronized (toilet) {
@@ -209,9 +388,13 @@ public class DemoThreadState {
         System.out.println("----------------End-RUNNABLE----------------");
 
         System.out.println("++++++++++++++++Begin-BLOCKED++++++++++++++++");
+        testBlocked();
+        testReenterBlocked();
         System.out.println("----------------End-BLOCKED----------------");
 
         System.out.println("++++++++++++++++Begin-WAITING++++++++++++++++");
+        testBlockedState();
+        testWaitingState();
         System.out.println("----------------End-WAITING----------------");
 
         System.out.println("++++++++++++++++Begin-TIMED_WAITING++++++++++++++++");

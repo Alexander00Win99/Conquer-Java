@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 【目标】：掌握单例模式设计方法及其原理
  *
- * 【结果】：完成(参考：参考：https://blog.csdn.net/wlccomeon/article/details/86692544)
+ * 【结果】：完成(参考：https://blog.csdn.net/wlccomeon/article/details/86692544)
  *
  * 【模式意图】：保证类有且仅有一个实例，并且提供一个全局访问点。
  *
@@ -18,6 +18,10 @@ import java.util.Map;
  *
  * 【涉及知识】：类加载机制；JVM序列化机制；字节码指令重排机制；JDK源码|Spring框架之中单例模式的应用
  * Spring: ReactiveAdapterRegistry.getSharedInstance() + Tomcat: TomcatURLStreamHandlerFactory.getInstanceInternal()
+ *
+ * 【类加载过程】
+ * 1) 类加载过程(a.加载=加载二进制字节码到内存中，生成对应Class数据结构；b.连接=验证+准备-静态属性|成员变量赋默认值+解析；c.初始化=静态属性|成员变量赋初始值)：
+ * 2) 当且仅当《主动使用类时》(a.当前类是启动类=包含main()函数入口；b.new constructor()操作；c.访问静态属性；d.访问静态方法；e.使用反射方法访问类；f.初始化类的子类；......)，才能触发类加载过程，当然包括其中的step-c=初始化；
  *
  * 【懒汉模式】
  * 1) 线程安全问题；
@@ -27,14 +31,13 @@ import java.util.Map;
  *
  * 【饿汉模式】
  * 1) 类加载过程(a.加载=加载二进制字节码到内存中，生成对应Class数据结构；b.连接=验证+准备-静态属性赋默认值+解析；c.初始化=静态属性赋初始值)：
- * 2) 当且仅当《主动使用类时》(a.当前类是启动类=包含main()函数入口；b.new constructor()操作；c.访问静态属性；d.访问静态方法；e.使用反射方法访问类；f.初始化类的子类；......)，才能触发类加载过程中的step-c=初始化；
+ * 2) 当且仅当《主动使用类时》(a.当前类是启动类=包含main()函数入口；b.new constructor()操作；c.访问静态属性；d.访问静态方法；e.使用反射方法访问类；f.初始化类的子类；......)，才能触发类加载过程，当然包括其中的step-c=初始化；
  * 3) 饿汉模式利用《类加载过程中的初始化》阶段step-c完成《实例》的初始化，本质是借助类加载机制(类加载过程自动加锁+类初始化过程只会执行一次)，保证实例的唯一性以及实例创建过程的线程安全(JVM采用同步方式而非异步方式完成类的加载)，
  * 注意，此处线程安全是指单例对象创建过程的线程安全而非该类或者该个单例对象是线程安全的；
  *
  * 【枚举单例】
  * 1) 线程安全问题；
- * 2)；
- * 3) 使用反射生成单例导致"Cannot reflectively create enum objects"异常；
+ * 2) 使用反射生成单例导致"Cannot reflectively create enum objects"异常；
  *     @CallerSensitive
  *     public T newInstance(Object ... initargs)
  *         throws InstantiationException, IllegalAccessException,
@@ -56,10 +59,11 @@ import java.util.Map;
  *         T inst = (T) ca.newInstance(initargs);
  *         return inst;
  *     }
+ *
  * 【静态内部类单例】
  * 1) 本质是利用类加载机制保证单一实例创建过程的线程安全；
  * 2) 只有在实际使用时，才会触发类的初始化进而完成实例初始化，是懒加载的一种变种形式；
- * 3)；
+ * 3) 综合懒汉模式和饿汉模式的特点；
  *
  * 【Java字节码反汇编举例】
  * public class Demo {
@@ -166,6 +170,7 @@ public class DemoSingleton {
         /**
          * 访问静态属性触发类加载过程中的初始化动作，完成饿汉模式实例化。
          * 单纯访问InnerClassSingleton.author不能触发private static class SingletonHolder返回单例对象
+         * InnerClassSingleton <==相当==> HungrySingleton + LazySingleton
          */
         System.out.println("++++++++++++++++访问静态属性触发类加载过程中的初始化动作++++++++++++++++");
         System.out.println(InnerClassSingleton.author); // NOK
@@ -299,7 +304,7 @@ public class DemoSingleton {
  *  线程A执行instance = new LazySingleton();完毕返回单例地址，此时对象空间初始化工作尚无完成；
  *  线程B调用getInstance()到达首个判断if (instance == null)，判断失败直接返回尚未初始化完成的instance单例对象；
  *
- *  解决办法：使用volatile关键字修饰instance属性
+ *  解决办法：使用volatile关键字修饰instance属性，防止实例生成过程的指令重排
  */
 class LazySingleton {
     private static volatile LazySingleton instance = null;

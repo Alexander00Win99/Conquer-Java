@@ -30,12 +30,12 @@ import java.util.function.Supplier;
  *  * var square = function(X) {return x * x;}
  *  * alert(square(6) + square(8)) // 100
  * <Java面向对象编程语言(万物皆对象)——思想清晰合理>——Lambda表达式(用于实现JS中的闭包功能，本质是函数是接口对象(SAM接口，Single Abstract Method Interface)，接口之中只能定义一个抽象方法)
- * * lambda表达式抽象的的做法是：在它的子表达式中绑定一个符号，以便使它成为一个可以替代的参数。这样的符号称为约束的（bound）。但是如果表达式中还有其他符号呢？例如λx.x/y+1。
+ *  * lambda表达式抽象的的做法是：在它的子表达式中绑定一个符号，以便使它成为一个可以替代的参数。这样的符号称为约束的（bound）。但是如果表达式中还有其他符号呢？例如λx.x/y+1。
  *  * 在这个表达式中，符号x是被lambda抽象λx约束的。但是另外一个符号y不受限制，他是自由的。我们不知道它是什么以及它来自哪里，所以我们不知道它代表什么，有什么价值，因此我们不能评估（evaluate）这个表达式直到我们能够找出y所代表的意义。
  *  *
  *  * 其他两个符号+和1也是一样。虽然我们人类对这两个符号非常熟悉，但是计算机并不知道它们，人们需要通过在某处定义它们来告诉计算机它们的含义。例如，在库中或者在语言本身内部。
  *  *
- *  * 可以想象自由符号是定义在表达式外面的地方，在它“周围的语境”（“surrounding context”）中，这个可以称为环境（environment）。环境可能是一个更大的表达式，这是表达式的一部分。或者在某个引入的库中，或者在原生的语言本身。
+ *  * 可以想象自由符号是定义在表达式外面的地方，在它“周围的语境”（“surrounding context”）中，这个可以称为环境（environment）。环境可能是一个更大的表达式，这是表达式的一部分。或者在某个引入的库中，或者在原生的语言本身中。
  *  * 对于Lambda表达式λx.x/y+1来说：{ y: 1, +: [built-in addition], 1: [built-in number], a: 0, b: 1 }是环境environment，子集{ y: 1, +: [built-in addition], 1: [built-in number] }是闭包closure。
  *  * lambda表达式的闭包是定义在外部上下文（环境）中特定的符号集，它们给这个表达式中的自由符号赋值。它将一个开放的、仍然包含一些未定义符号的lambda表达式变为一个关闭的lambda表达式，使得这个lambda表达式不再具有任何自由符号。
  *  * lambda表达式分为两类：
@@ -277,6 +277,13 @@ public class DemoLambda {
 
         System.out.println("++++++++++++++++Begin-Lambda表达式的本质：SAM接口对象++++++++++++++++");
         // 0) 自定义函数式接口SAM
+//        MyService service = new MyService() {
+//            @Override
+//            public void print(String message) {
+//                System.out.println("Fuck U!" + "\r\n" + message);
+//            }
+//        };
+//        MyService service = (x) -> System.out.println("Fuck U!" + "\r\n" + x);
         MyService service = System.out::println;
         service.print("Hello World! SAM interfaces!");
         // 1) 消费型接口Consumer<T>——有参数无返回值，通过accept()方法调用
