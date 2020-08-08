@@ -48,7 +48,7 @@ public class People {
     @Override
     public int hashCode() {
         return Objects.hash(name, age, sex);
-        //return this.name.hashCode();
+//        return this.name.hashCode();
     }
 
 // 手写equals方法

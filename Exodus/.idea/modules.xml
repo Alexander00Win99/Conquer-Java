@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exodus.iml" filepath="$PROJECT_DIR$/Exodus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../netty-rpc-server/netty-rpc-server.iml" filepath="$PROJECT_DIR$/../netty-rpc-server/netty-rpc-server.iml" />
     </modules>
   </component>
 </project>

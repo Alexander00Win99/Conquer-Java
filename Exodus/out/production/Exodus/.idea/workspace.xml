@@ -2,35 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfdf7d7-556d-4ec6-b839-ade7c60d2b58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/graph/DemoDijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/graph/DemoMST_Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/graph/DemoMST_Prim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/graph/MapNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/hashmap/DemoHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/binary_tree/DemoAVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/binary_tree/DemoSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JMM/DemoJMM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/MyAbstractQueuedSynchronizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/DemoCountOrderedPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/DemoDoublePointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/DemoGetStringVarieties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/DemoMaxLength4SubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/DemoQueryHobby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/DemoRotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class07/DemoEqualProbabilityRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class07/DemoFindHalfMajority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class07/DemoFindKthMajority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class07/DemoRandom2Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class09/DemoLongestOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class09/DemoSearch2DMatrixII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class09/DemoSetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class10/DemoGetMaxInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class10/DemoOddTimesEvenTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class10/DemoSwapIntByXor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class11/DemoCopyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/MaShibing_ZuoChengyun/class11/DemoMinJumpSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/BIO_NIO_AIO/DemoSocketBIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/BIO_NIO_AIO/DemoSocketMultiplexingSingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/BIO_NIO_AIO/DemoSocketNIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/GC/DemoGCPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/ClassLoader/DemoLoadClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/ClassLoader/DemoOuterInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/DemoJVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/Synchronized/DemoCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/Synchronized/DemoPermanentOrderABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/Synchronized/DemoSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/Volatile/DemoABA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/Volatile/DemoDisorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/JVM/garbage_collection/DemoGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/class_load/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/class_load/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/class_load/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/class_load/TestClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/inner_class/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/inner_class/Daughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/inner_class/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/inner_class/Mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/inner_class/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/inner_class/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/lock/DemoCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/lock/DemoCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/lock/DemoPhaser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/lock/DemoReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/string/DemoStringImmutability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_local/DemoPhantomReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_local/DemoReferenceTypeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_local/DemoSoftReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_local/DemoStrongReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_local/DemoThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_local/DemoWeakReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_pool/DemoCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread_pool/DemoCompletableFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/Maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/src/main/java/DemoJOL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-api/src/main/java/com/conque_java/dto/Invocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-client/src/main/java/com/conque_java/client/RPCClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-client/src/main/java/com/conque_java/client/RPCProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/src/main/java/com/conque_java/server/RPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/src/main/java/com/conque_java/server/RPCServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/src/main/java/com/conque_java/server/RPCServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/src/main/java/com/conque_java/service/Class1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/src/main/java/com/conque_java/service/Class2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc-server/src/main/java/com/conque_java/service/impl/Class0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree$1Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/DemoSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/DemoSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/EnumSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/EnumSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/HungrySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/HungrySingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton$SingletonHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/InnerClassSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/LazySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/LazySingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton$EnumHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton$EnumHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/design_pattern/singleton/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread/DemoThreadState$1Toilet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread/DemoThreadState$1Toilet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread/DemoThreadState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/knowledge/thread/DemoThreadState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/binary_tree/DemoInvertTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conque_java/design_pattern/DesignPatternMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/DesignPatternMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conque_java/design_pattern/singleton/DemoSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/design_pattern/singleton/DemoSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoCircularLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoCircularLinkedList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoCircularLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conque_java/algorithm/leetcode/DemoCircularLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/data_structure/collection/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/data_structure/collection/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoCircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/algorithm/leetcode/DemoCircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/lambda/DemoLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/lambda/DemoLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conque_java/knowledge/thread/DemoThreadCommunication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +128,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1V1a49xJpUQ8UiN12a4f5pnmJve" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -79,68 +146,78 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/Software/Java/jar/cglib-3.3.0.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.conque_java.design_pattern.builder.build_house" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\JSR133" />
-      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\prototype" />
       <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\builder" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.conque_java.design_pattern.builder.build_house" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\BIO_NIO_AIO" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\BIO&amp;NIO&amp;AIO" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\JVM\Volatile" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\JSR133" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DemoAVL">
-    <configuration name="DemoAVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conque_java.algorithm.leetcode.binary_tree.DemoAVL" />
+  <component name="RunManager" selected="Application.TestClassLoader">
+    <configuration name="DemoPhaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.lock.DemoPhaser" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMST_Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conque_java.algorithm.graph.DemoMST_Kruskal" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.class_load.Main" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMST_Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conque_java.algorithm.graph.DemoMST_Prim" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.util.MyClass" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPatternMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conque_java.design_pattern.DesignPatternMain" />
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.inner_class.Outer" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAbstractQueuedSynchronizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.thread.MyAbstractQueuedSynchronizer" />
+    <configuration name="TestClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conque_java.knowledge.class_load.TestClassLoader" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.DemoPhaser" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MyClass" />
+      <item itemvalue="Application.Outer" />
+      <item itemvalue="Application.TestClassLoader" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoAVL" />
-        <item itemvalue="Application.MyAbstractQueuedSynchronizer" />
-        <item itemvalue="Application.DesignPatternMain" />
-        <item itemvalue="Application.DemoMST_Prim" />
-        <item itemvalue="Application.DemoMST_Kruskal" />
+        <item itemvalue="Application.TestClassLoader" />
+        <item itemvalue="Application.Outer" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.DemoPhaser" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +233,11 @@
       </list>
     </option>
   </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1591495792115" text="java.util.concurrent.atomic.AtomicStampedReference" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -166,127 +248,92 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Notifications" timestamp="1583251004974">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594485919549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1583251004974" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582379384792">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1594485919549" />
+    <state x="872" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1592624215335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582379384792" />
-    <state x="458" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580879304461">
+    <state x="872" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592624215335" />
+    <state x="339" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593361175033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="458" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580879304461" />
-    <state x="872" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1586624222617">
+    <state x="339" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593361175033" />
+    <state x="211" y="191" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1591495792095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="872" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586624222617" />
-    <state x="458" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581781229804">
+    <state x="211" y="191" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1591495792095" />
+    <state x="841" y="62" width="396" height="664" key="#xdebugger.evaluate" timestamp="1593059519180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="458" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1581781229804" />
-    <state x="339" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584723553434">
+    <state x="841" y="62" width="396" height="664" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1593059519180" />
+    <state x="563" y="83" key="FileChooserDialogImpl" timestamp="1596470797749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1584723553434" />
-    <state x="479" y="223" width="504" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584981094089">
+    <state x="563" y="83" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596470797749" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1596508026042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="223" width="504" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1584981094089" />
-    <state x="526" y="235" width="468" height="258" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581781243878">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596508026042" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1596508026042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="235" width="468" height="258" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1581781243878" />
-    <state x="339" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582382814542">
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596508026042" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1596508026042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582382814542" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583557888720">
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596508026042" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1596508026042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583557888720" />
-    <state x="879" y="108" key="#xdebugger.evaluate" timestamp="1586193615034">
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596508026042" />
+    <state width="1323" height="275" key="GridCell.Tab.1.bottom" timestamp="1594440974321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="879" y="108" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1586193615034" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1578723427077">
+    <state width="1323" height="275" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594440974321" />
+    <state width="1323" height="275" key="GridCell.Tab.1.center" timestamp="1594440974321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578723427077" />
-    <state x="390" y="128" key="FileChooserDialogImpl" timestamp="1582388387555">
+    <state width="1323" height="275" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594440974321" />
+    <state width="1323" height="275" key="GridCell.Tab.1.left" timestamp="1594440974321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="128" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582388387555" />
-    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1586615417644">
+    <state width="1323" height="275" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594440974321" />
+    <state width="1323" height="275" key="GridCell.Tab.1.right" timestamp="1594440974321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586615417644" />
-    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1586615417643">
+    <state width="1323" height="275" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594440974321" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1596470910537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586615417643" />
-    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1586615417643">
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596470910537" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1589216960660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586615417643" />
-    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1586615417643">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589216960660" />
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1594442762516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586615417643" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1586244511001">
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1594442762516" />
+    <state x="131" y="89" key="new project wizard" timestamp="1595828026047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586244511001" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1586244511001">
+    <state x="131" y="89" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1595828026047" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1596371092453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586244511001" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1586244511001">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1596371092453" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596470084681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586244511001" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1586244511001">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586244511001" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1586001010077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586001010077" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586227138538">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586227138538" />
-    <state x="544" y="142" key="chooseDestDirectoryDialog" timestamp="1581781216750">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="544" y="142" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581781216750" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1587194515087">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587194515087" />
-    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586615508275">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586615508275" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1586599479779">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586599479779" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586595549239">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586595549239" />
-    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585586963885">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1585586963885" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596470084681" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
         <watch expression="root.right" />
+        <watch expression="dp" />
       </configuration>
     </watches-manager>
   </component>

@@ -4,7 +4,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Leetcode-141: 环形链表——！！！重点注意：|和||的细微差异可能导致前后两个表达式的空指针异常错误！！！
+ * Leetcode-141: 环形链表II——！！！重点注意：|和||的细微差异可能导致前后两个表达式的空指针异常错误！！！
+ * Leetcode-160: 相交链表——！！！重点注意：两个链表->通过分解成为多个部分然后针对不同部分进行无重复互补性相加实现步伐统一的求同存异思想->弥合差异！！！
+ * 1) 暴力循环法，时间复杂度O(m*n)
+ * ——简单粗暴
+ * 2) 容器承装法，时间复杂度O(m+n)，空间复杂度O(m)|O(n)——3个以及以上链表，同样有效
+ * ——两个链表同时向容器中逐个添加节点，遇到重复节点即刻返回
+ * 3) 双指针遍历法，时间复杂度O(m+n-Intersection(m,n))——3个以及以上链表，无法工作
+ * ——假设：a，b两个链表不同部分的节点长度分别是aL和bL，相同部分长度为commonL，那么，两个指针分别从a、b链头触发，a后接b，b后接a，在走了aL+bL+commonL之后一定同时位于相交节点；
+ * ——假设：a，b两个链表并不相交，也即没有共同部分，那么，pA指针移动aL+bL之后，pB指针同时移动bL+aL，两者此时均为null，跳出while (pA != pB)循环，返回null；
  */
 public class DemoCircularLinkedList {
 //    public static ListNode generateLinkedList(int[] arr) {
@@ -85,7 +93,7 @@ public class DemoCircularLinkedList {
     // 时间复杂度O(n)，空间复杂度O(1)
     // 两个指针slow和fast，如果成环，一定能够相遇，如果无环，其中之一一定能够遇到null
     public static boolean hasCycle(ListNode head) {
-        if (head == null | head.next == null) return false;
+        if (head == null || head.next == null) return false;
 
         ListNode slow = head;
         ListNode fast = head.next;
