@@ -1,5 +1,8 @@
 package com.conque_java.knowledge.class_load;
 
+import java.io.File;
+import java.io.IOException;
+
 /**
  * ClassLoader的核心功能：动态加载 .class字节码文件 生成Class对象 —— 实现类（模块）的动态加载。如下四种方式可以触发类加载：
  * new | Class.farName(name) | Class.forName(name, classLoader) | ClassLoader.loadClass(name)
@@ -13,9 +16,18 @@ package com.conque_java.knowledge.class_load;
  *
  * 注：
  * 类加载器 + 类本身 => 类在JVM虚拟机中的唯一性 <==> 也即同一虚拟机中的同一Class文件，被不同类加载器加载，产生不同的Class对象。
+ *
+ * 【如何获取当前工程路径】
+ * 1 System.getProperty("user.dir");
+ * 2 System.getProperty("java.class.path");
+ * 3 Thread.currentThread().getContentClassLoader();
+ * 4 request.getSession().getServletContext();
+ * 5 new File("").getCanonicalPath();
+ * 6 this.getClass().getResource("/"); // 或者this.getClass().getResource("");
+ * 7 通过this.getClass().getClassLoader();
  */
 public class TestClassLoader {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         try {
             Class.forName("com.conque_java.knowledge.class_load.MyClass");
         } catch (ClassNotFoundException e) {
@@ -23,8 +35,10 @@ public class TestClassLoader {
         }
 
         // 通过getSystemClassLoader()获取AppClassLoader
+        System.out.println("通过getSystemClassLoader()获取AppClassLoader：");
         System.out.println(ClassLoader.getSystemClassLoader());
         // 获取加载路径
+        System.out.println("java.class.path如下：");
         String classPath = System.getProperty("java.class.path");
         System.out.println(classPath);
 //        for (String path : classPath.split(";")) {
@@ -40,6 +54,20 @@ public class TestClassLoader {
         System.out.println(classLoader1.getParent().getParent());
         System.out.println("两个类加载器是否相同？");
         System.out.println(classLoader1 == classLoader2);
+
+        System.out.println("当前工程根路径：");
+        System.out.println(new TestClassLoader().getClass().getResource("/").getPath());
+        System.out.println("当前类绝对路径：");
+        System.out.println(new TestClassLoader().getClass().getResource("").getPath());
+        File directory = new File(""); // 参数为空
+        String path = directory.getCanonicalPath();
+        System.out.println("当前工程的根目录如下：");
+        System.out.println(path);
+        System.out.println("user.dir目录如下");
+        System.out.println(System.getProperty("user.dir"));
+//        File f = new File(this.getClass().getResource("/").getPath());
+//        System.out.println(new File(this.getClass().getResource("/").getPath()));
+//        System.out.println(new File(this.getClass().getResource().getPath()));
 
         MyClassLoader myClassLoader = new MyClassLoader("D:\\Workspace\\Java\\IdeaProjects\\Exodus\\out\\production\\Exodus\\com\\conque_java\\knowledge\\class_load", "random");
         System.out.println(myClassLoader);

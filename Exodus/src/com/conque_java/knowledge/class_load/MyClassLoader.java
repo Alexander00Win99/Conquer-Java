@@ -44,7 +44,7 @@ public class MyClassLoader extends ClassLoader {
                 fis.close();
             }
         }
-        System.out.println("能够生成.class文件字节流");
+        System.out.println("通过自行加载.class字节码文件能够生成二进制字节流！");
         return baos == null ? null : baos.toByteArray();
     }
 }
