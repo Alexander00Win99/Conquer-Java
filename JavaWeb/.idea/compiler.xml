@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Maven" />
-        <module name="netty-rpc-client" />
-        <module name="netty-rpc-api" />
-        <module name="netty-rpc-server" />
+        <module name="servlet-04-request" />
+        <module name="servlet-03-response" />
+        <module name="servlet-02-ok" />
+        <module name="servlet-01-helloworld" />
       </profile>
     </annotationProcessing>
   </component>

@@ -242,7 +242,7 @@ public class UserDaoImpl implements UserDao {
             // 开启事务（关闭自动提交）
             connection.setAutoCommit(false);
             // 创建SQL语句执行句柄
-            Statement statement = connection.createStatement();
+            //Statement statement = connection.createStatement();
             // 修改表字段名称(名称：datetime -> timestamp，类型：timestamp)
             //sql = "ALTER TABLE demo_mybatis.user CHANGE datetime timestamp timestamp ";
             // 修改表字段名称(名称：timestamp -> datetime，类型：timestamp)
