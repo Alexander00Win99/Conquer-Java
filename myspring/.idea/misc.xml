@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-01-ioc_base/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-02-pojo_hello/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-10-mybatis-nonspring/pom.xml" />
       </list>
     </option>
   </component>

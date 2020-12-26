@@ -1,7 +1,4 @@
-import com.conquer_java.spring.dao.*;
-import com.conquer_java.spring.service.UserService;
 import com.conquer_java.spring.service.UserServiceImpl;
-import com.sun.deploy.security.CPCallbackHandler;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

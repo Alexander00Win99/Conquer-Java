@@ -26,7 +26,7 @@ public class ParseAnnotation {
             // 各个属性依次赋值
             for (int i = 0; i < fields.length; i++) {
                 fields[i].setAccessible(true);
-                fields[i].set(obj, values[i]);
+                fields[i].set(obj, fields[i].getType().getConstructor(String.class).newInstance(values[i]));
             }
         } catch (NoSuchMethodException e) {
             e.printStackTrace();

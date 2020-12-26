@@ -17,12 +17,14 @@ package com.conquer_java.knowledge.modifier;
  */
 public class DemoFinal {
     public static void main(String[] args) {
-        // final修饰的引用变量地址不变，对象属性可以改变
+        // final修饰的对象虽然引用地址不变，但是对象的属性可以改变
+        System.out.println("final修饰的对象虽然引用地址不变，但是对象的属性可以改变:");
         final MyClass myClass = new MyClass();
         for (int i = 0; i < 10; i++) {
             System.out.println(myClass.myNum++);
         }
         // final类内部属性不受final关键字影响
+        System.out.println("final类内部属性不受final关键字影响:");
         FinalClass finalClass = new FinalClass();
         for (int i = 0; i < 10; i++) {
             System.out.println(finalClass.prop++);

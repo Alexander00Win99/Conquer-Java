@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--使用spring创建bean对象-->
-    <bean id="hello" class="com.conquer_java.spring.pojo.Hello">
+    <bean id="hello" class="com.conquer_java.spring.entity.Hello">
         <property name="name" value="spring-02-pojo_hello"/>
     </bean>
 </beans>

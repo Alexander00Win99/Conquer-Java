@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="spring-dao.xml"/>
+
+    <bean id="userMapper" class="com.conquer_java.spring.mapper.UserMapperImpl">
+        <property name="sqlSession" ref="sqlSession"/>
+    </bean>
+
+    <bean id="user_99" class="com.conquer_java.spring.pojo.User">
+        <property name="id" value="99"/>
+        <property name="name" value="温瑞枫"/>
+        <property name="password" value="999999"/>
+<!--        <property name="datetime" value="null"/>-->
+    </bean>
+</beans>

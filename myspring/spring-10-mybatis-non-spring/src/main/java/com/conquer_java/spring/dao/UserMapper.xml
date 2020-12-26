@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.conquer_java.spring.dao.UserMapper">
+    <select id="selectAll" resultType="com.conquer_java.spring.entity.User">
+        select * from demo_mybatis.user;
+    </select>
+</mapper>

@@ -18,6 +18,9 @@ package com.conquer_java.design_pattern.adapter;
  * 2) Object Adapter Pattern;
  * 3) Default(Interface) Adapter Pattern;
  *
+ * 【使用场景】
+ * 软件版本更新，支持向后兼容。
+ *
  * 【类适配器 VS 对象适配器】
  * 类适配器：优点：适配器Adapter类是适配者Adaptee类的子类，因此可以Override（重写）父类方法，使得适配器更加灵活；缺点：只能继承一个适配者Adaptee类；
  * 对象适配器：优点：一个适配器Adapter类可以包含多个不同的适配者Adaptee类，也即同一适配器可以处理所有适配者，使得适配器更加全面；缺点：如果需要重写适配者类的方法，只能首先创建适配者类子类，实现所需方法，然后用其替换适配器类的属性；

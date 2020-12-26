@@ -6,7 +6,15 @@
 
   <groupId>com.conquer_java.spring</groupId>
   <artifactId>MySpring</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>spring-08-proxy</module>
+    <module>spring-09-aop</module>
+    <module>spring-10-mybatis-non-spring</module>
+    <module>spring-10-mybatis-spring</module>
+      <module>spring-11-transaction</module>
+  </modules>
 
   <name>MySpring</name>
   <!-- FIXME change it to the project's website -->
@@ -22,7 +30,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13</version>
       <scope>test</scope>
     </dependency>
     <dependency>

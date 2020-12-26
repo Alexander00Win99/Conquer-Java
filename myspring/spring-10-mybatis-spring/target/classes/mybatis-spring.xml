@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--一个引入spring-mybatis支持的mybatis配置文件，一般只会保留settings和typeAliases设置部分-->
+    <!--JDBC连接配置和Mapper接口解析配置，在spring-dao配置文件中Datasoure和SqlSessionFactoryBean部分已做设置，此处省略-->
+<!--    <settings>-->
+<!--        <setting name="demo" value="demo"/>-->
+<!--    </settings>-->
+    <typeAliases>
+        <package name="com.conquer_java.spring.pojo"/>
+    </typeAliases>
+</configuration>

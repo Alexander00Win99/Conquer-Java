@@ -2,6 +2,7 @@ package com.conquer_java.knowledge.modifier;
 
 public class DemoDefault {
     public static void main(String[] args) {
+        System.out.println("接口中Default修饰的方法必须提供方法实现！");
         IMySqrt mySqrt = new IMySqrt() {
             @Override
             public double mySqrt(int n) {

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"
+         metadata-complete="true">
+
+  <display-name>Welcome to Servlet05</display-name>
+  <description>
+    Welcome to Servlet05
+  </description>
+
+  <servlet>
+    <!--  添加存活cookie（setMaxAge>0）  -->
+    <servlet-name>cookie01</servlet-name>
+    <servlet-class>com.conquer_java.servlet.CookieServlet01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cookie01</servlet-name>
+    <url-pattern>/cookie01/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <!--  删除同名cookie（setMaxAge=0）  -->
+    <servlet-name>cookie02</servlet-name>
+    <servlet-class>com.conquer_java.servlet.CookieServlet02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cookie02</servlet-name>
+    <url-pattern>/cookie02/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <!--  在cookie中传递中文信息（URLEncoder.encode() + URLDecoder.decode()）  -->
+    <servlet-name>cookie03</servlet-name>
+    <servlet-class>com.conquer_java.servlet.CookieServlet03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cookie03</servlet-name>
+    <url-pattern>/cookie03/*</url-pattern>
+  </servlet-mapping>
+</web-app>
