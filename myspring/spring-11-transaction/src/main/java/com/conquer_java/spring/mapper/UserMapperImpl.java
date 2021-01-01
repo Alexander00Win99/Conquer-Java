@@ -25,12 +25,18 @@ public class UserMapperImpl implements UserMapper {
 
     @Override
     public List<User> selectAll() {
-
         return sqlSession.getMapper(UserMapper.class).selectAll();
     }
 
     @Override
     public User selectOne(int id) {
         return sqlSession.getMapper(UserMapper.class).selectOne(id);
+    }
+
+    @Override
+    public List<User> showUserInGroup(User user) {
+        createUser(user);
+        deleteUser(user.getId());
+        return selectAll();
     }
 }

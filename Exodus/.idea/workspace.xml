@@ -2,365 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfdf7d7-556d-4ec6-b839-ade7c60d2b58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/IMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap$Entry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/Leetcode_0264_UglyNumberII_Factorization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/Leetcode_1201_UglyNumberIII_Factorization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_nowcoder/DigitString2CharacterString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AbstractFather.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/ConcreteSon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/DemoAbstractFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/HuaweiFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/HuaweiMP3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/HuaweiMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/ICommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/IConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/IDBComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/IMP3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/IMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/IProductFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/MiFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/MiMP3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/MiMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/MySQLCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/MySQLConcreteComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/MySQLConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/OracleCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/OracleConcreteComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/abstract_factory/OracleConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/HuaweiFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/HuaweiMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/MiFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/MiMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/Mobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/factory_method/MobileFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/simple_factory/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/simple_factory/HuaweiMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/simple_factory/MiMobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/simple_factory/Mobile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory/simple_factory/MobileFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$FirstSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$SecondSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$ThirdSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/DemoSingletonSerialization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/LazyEnumSingleton$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/LazyEnumSingleton$EnumSingletonHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/LazyEnumSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/ThreadLocalSingleton$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/ThreadLocalSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/JMM/Volatile/DemoReflect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/MySpring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/boxing/DemoBoxing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/DemoReentrantSynchronized$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/DemoReentrantSynchronized$Child.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/DemoReentrantSynchronized$Parent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/DemoReentrantSynchronized.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/DemoReentrantlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/DemoSynchronizedReentrancy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/lock/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoStatic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/SubStatic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/reflection/DemoChangeString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/serialization/DemoTransient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/serialization/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/serialization/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/IMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/Leetcode_0264_UglyNumberII_Factorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/Leetcode_1201_UglyNumberIII_Factorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_nowcoder/DigitString2CharacterString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/adapter/AbstractFather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/adapter/ConcreteSon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/HuaweiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/HuaweiMP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/HuaweiMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/IMP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/IMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/IProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/MiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/MiMP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/MiMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/HuaweiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/HuaweiMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/MiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/MiMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method/MobileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/simple_factory/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/simple_factory/HuaweiMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/simple_factory/MiMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/simple_factory/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/simple_factory/MobileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/DemoSingletonSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/InnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/LazyEnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/ThreadLocalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/MySpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/boxing/DemoBoxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/lock/DemoReentrantSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/lock/DemoReentrantlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/lock/DemoSynchronizedReentrancy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/modifier/DemoStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/src/main/java/com/conquer_java/servlet/CookieServlet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/src/main/java/com/conquer_java/servlet/CookieServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/src/main/java/com/conquer_java/servlet/CookieServlet03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/classes/com/conquer_java/servlet/CookieServlet01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/classes/com/conquer_java/servlet/CookieServlet02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/classes/com/conquer_java/servlet/CookieServlet03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/WEB-INF/classes/com/conquer_java/servlet/CookieServlet01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/WEB-INF/classes/com/conquer_java/servlet/CookieServlet02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/WEB-INF/classes/com/conquer_java/servlet/CookieServlet03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/java/com/conquer_java/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/java/com/conquer_java/servlet/SessionServlet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/java/com/conquer_java/servlet/SessionServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/java/com/conquer_java/servlet/SessionServlet03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/classes/com/conquer_java/pojo/Person$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/classes/com/conquer_java/pojo/Person$Sex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/classes/com/conquer_java/pojo/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/classes/com/conquer_java/servlet/SessionServlet01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/classes/com/conquer_java/servlet/SessionServlet02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/classes/com/conquer_java/pojo/Person$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/classes/com/conquer_java/pojo/Person$Sex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/classes/com/conquer_java/pojo/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/classes/com/conquer_java/servlet/SessionServlet01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/classes/com/conquer_java/servlet/SessionServlet02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/classes/com/conquer_java/servlet/SessionServlet03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/fuck.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/target/servlet-06-session/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-07-jsp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-07-jsp/src/main/java/com/conquer_java/servlet/JSPServlet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-07-jsp/src/main/java/com/conquer_java/servlet/JSPServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-07-jsp/src/main/java/com/conquer_java/servlet/JSPServlet03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-07-jsp/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-08-filter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-08-filter/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/servlet-08-filter/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/IRent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/Landlord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/extension/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/extension/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/extension/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/dynamic_proxy/extension/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/IRent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/Landlord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/Realtor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/extension/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/extension/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/extension/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/src/main/java/com/conquer_java/spring/static_proxy/extension/UserServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/IRent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/Landlord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/MyInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/MyInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/IRent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/Landlord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/Realtor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/UserServiceProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/java/com/conquer_java/spring/anno/MyAnnotationAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/java/com/conquer_java/spring/diy/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/java/com/conquer_java/spring/log/AfterLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/java/com/conquer_java/spring/log/BeforeLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/java/com/conquer_java/spring/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/java/com/conquer_java/spring/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/anno/MyAnnotationAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/diy/MyAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/log/AfterLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/log/BeforeLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/spring-10-mybatis-nonspring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/java/com/conquer_java/spring/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/java/com/conquer_java/spring/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/java/com/conquer_java/spring/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/resources/mysql_localhost.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/test/java/MybatisNonSpringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/java/com/conquer_java/spring/mapper/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/java/com/conquer_java/spring/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/java/com/conquer_java/spring/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/java/com/conquer_java/spring/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/java/com/conquer_java/spring/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/applicationcontext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/mybatis-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/test/java/MybatisSpringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/applicationcontext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/com/conquer_java/spring/mapper/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/com/conquer_java/spring/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/com/conquer_java/spring/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/com/conquer_java/spring/mapper/UserMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/com/conquer_java/spring/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/mybatis-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/test-classes/MybatisSpringTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/resources/applicationcontext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/applicationcontext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/test-classes/MyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/META-INF/spring-02-pojo_hello.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/spring-01-ioc-base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/dao/UserDaoMysqlImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/dao/UserDaoOracleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/dao/UserDaoSqlserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/java/com/conquer_java/spring/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/test/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoMysqlImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoOracleImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoSqlserverImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/test-classes/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/src/main/java/com/conquer_java/spring/pojo/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/target/classes/com/conquer_java/spring/pojo/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-02-hello/target/test-classes/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-09-aop/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/AlexMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/AlexMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/DemoAbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/ICommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/IConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/IDBComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/MySQLCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/MySQLConcreteComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/MySQLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/OracleCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/OracleConcreteComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/abstract_factory/OracleConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AlternatePower220Adaptee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AlternatePower220Adaptee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AlternatePower380Adaptee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AlternatePower380Adaptee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AlternatePowerAdaptee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/AlternatePowerAdaptee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DefaultAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DefaultAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DemoAdapter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DemoAdapter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DemoAdapter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DemoAdapter$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DemoAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/DemoAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/PowerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/PowerAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/PowerAdapter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/PowerAdapter1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/PowerAdapter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/adapter/PowerAdapter2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/ConcreteProductA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/ConcreteProductB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/DemoFactoryMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/IProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/ProductA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/factory_method/ProductB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/DemoSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/EnumSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/EnumSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/HungrySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/HungrySingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/InnerClassSingleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/InnerClassSingleton$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/InnerClassSingleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/InnerClassSingleton$SingletonHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/InnerClassSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/InnerClassSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/LazySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/LazySingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/Singleton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/Singleton$EnumHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/design_pattern/singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/JMM/Volatile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/JMM/Volatile/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/JVM/Synchronized/DemoSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/JVM/Synchronized/Synchronized_CAS_AtomicInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/ParseAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/ParseAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoDefault$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoDefault$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoDefault.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoDefault.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/DemoFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/FinalClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/FinalClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/IMySqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/IMySqrt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/modifier/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/reflection/DemoMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/reflection/DemoReflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/string/DemoStringImmutability.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/string/DemoStringImmutability.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/usage4transient/DemoTransient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/usage4transient/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/usage4transient/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/AlexMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/AlexMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/abstract_factory/DemoAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/abstract_factory/DemoAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/adapter/DemoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/adapter/DemoAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory_method/DemoFactoryMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/design_pattern/singleton/DemoSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/ParseAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/ParseAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/modifier/DemoDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/modifier/DemoDefault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/modifier/DemoFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/modifier/DemoFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/reflection/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/reflection/DemoChangeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/reflection/DemoReflection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/string/DemoStringImmutability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/string/DemoStringImmutability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/usage4transient/DemoTransient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/serialization/DemoTransient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/usage4transient/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/serialization/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/usage4transient/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/serialization/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/classes/com/conquer_java/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request.war" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/WEB-INF/classes/com/conquer_java/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/servlet-05-cookie/target/servlet-05-cookie/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/servlet-07-jsp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-04-request/target/servlet-04-request/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/servlet-06-session/src/main/webapp/fuck.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myspring/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-01-helloworld/src/main/resources/kww.bmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myspring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myspring/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myspring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-01-ioc_base/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-01-ioc_base/target/test-classes/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/src/main/java/com/conquer_java/spring/pojo/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-02-pojo_hello/src/main/java/com/conquer_java/spring/entity/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-02-pojo_hello/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/com/conquer_java/spring/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/com/conquer_java/spring/pojo/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/com/conquer_java/spring/entity/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/src/test/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/anno/MyAnnotationAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/diy/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/log/AfterLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/log/BeforeLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/classes/com/conquer_java/spring/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-09-aop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/test/java/MybatisSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/test/java/MybatisSpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/test-classes/MybatisSpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/test-classes/MybatisSpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/java/com/conquer_java/spring/mapper/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/resources/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/resources/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-01-ioc_base/src/test/java/MyTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/test-classes/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-02-pojo_hello/src/test/java/MyTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -612,10 +318,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="205" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607939988825" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1608987457220">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1609301207448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1608987457220" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609301207448" />
     <state x="481" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601311836284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

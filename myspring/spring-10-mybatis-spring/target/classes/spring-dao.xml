@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--DataSource：使用Spring的数据源替换MyBatis的JDBC连接配置。常见数据源有：c3p0、dbcp、druid等-->
-    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/demo_mybatis?&amp;useSSL=true&amp;serverTimezone=UTC&amp;useUnicode=true&amp;useEncoding=true&amp;characterEncoding=UTF-8"/>
         <property name="username" value="root"/>
@@ -14,7 +14,7 @@
 
     <!--SqlSessionFactoryBean：用于构建SqlSessionFactory会话工厂-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="datasource"/>
+        <property name="dataSource" ref="dataSource"/>
         <!--SqlSessionFactoryBean配置内部引用MyBatis配置文件-->
         <property name="configLocation" value="classpath:mybatis-spring.xml"/>
         <!--SqlSessionFactoryBean配置内部引用Mapper接口解析配置文件-->

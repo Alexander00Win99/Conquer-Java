@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDaoImpl" class="com.conquer_java.spring.dao.UserDaoImpl"/>
+    <bean id="userDaoMysqlImpl" class="com.conquer_java.spring.dao.UserDaoMysqlImpl"/>
+    <bean id="userDaoOracleImpl" class="com.conquer_java.spring.dao.UserDaoOracleImpl"/>
+    <bean id="userDaoSqlserverImpl" class="com.conquer_java.spring.dao.UserDaoSqlserverImpl"/>
+    <bean id="userServiceImpl" class="com.conquer_java.spring.service.UserServiceImpl">
+        <!--ref引用IoC Container中已有Bean对象；value是对于基本数据类型或者String对象赋予常量或者字符串字面量-->
+        <property name="userDao" ref="userDaoMysqlImpl"/>
+    </bean>
+</beans>
