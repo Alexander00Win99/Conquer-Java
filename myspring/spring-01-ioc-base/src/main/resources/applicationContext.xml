@@ -10,6 +10,6 @@
     <bean id="userDaoSqlserverImpl" class="com.conquer_java.spring.dao.UserDaoSqlserverImpl"/>
     <bean id="userServiceImpl" class="com.conquer_java.spring.service.UserServiceImpl">
         <!--ref引用IoC Container中已有Bean对象；value是对于基本数据类型或者String对象赋予常量或者字符串字面量-->
-        <property name="userDao" ref="userDaoMysqlImpl"/>
+        <property name="userDao" ref="userDaoImpl"/>
     </bean>
 </beans>

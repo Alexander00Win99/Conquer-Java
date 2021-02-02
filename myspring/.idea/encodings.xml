@@ -5,6 +5,10 @@
     <file url="file://$PROJECT_DIR$/spring-01-ioc-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-02-hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-02-hello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-03-ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-03-ioc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-04-di/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-04-di/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-08-proxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-08-proxy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-09-aop/src/main/java" charset="UTF-8" />
@@ -15,8 +19,5 @@
     <file url="file://$PROJECT_DIR$/spring-10-mybatis-spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-11-transaction/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-11-transaction/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../spring-02-pojo_hello" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../spring-02-pojo_hello/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../spring-02-pojo_hello/src/main/resources" charset="UTF-8" />
   </component>
 </project>

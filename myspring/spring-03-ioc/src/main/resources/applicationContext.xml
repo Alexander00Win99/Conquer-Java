@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="beans.xml"/>
+
+    <bean id="user" class="com.conquer_java.spring.pojo.User">
+        <property name="name" value="Alexander00Win99"/>
+    </bean>
+    <alias name="user" alias="alias_of_user"/>
+    <bean id="user01" class="com.conquer_java.spring.pojo.User">
+        <constructor-arg type="java.lang.String" value="类型匹配"/>
+    </bean>
+    <bean id="user02" class="com.conquer_java.spring.pojo.User">
+        <constructor-arg name="name" value="名称匹配"/>
+    </bean>
+    <bean id="user03" class="com.conquer_java.spring.pojo.User">
+        <constructor-arg index="0" value="索引匹配"/>
+    </bean>
+</beans>

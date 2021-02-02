@@ -16,6 +16,8 @@
       <module>spring-11-transaction</module>
       <module>spring-01-ioc-base</module>
       <module>spring-02-hello</module>
+      <module>spring-03-ioc</module>
+      <module>spring-04-di</module>
   </modules>
 
   <name>MySpring</name>

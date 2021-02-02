@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39f8d3db-48a7-462a-919f-ad42c288a0ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/IMyMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/TestMyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/Leetcode_0136_SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/Leetcode_0155_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/Leetcode_0258_AddDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0141_LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0146_LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0095_UniqueBinarySearchTreesII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0098_ValidateBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0099_RecoverBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0100_SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0101_SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0102_BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0103_BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0106_ConstructBinaryTreeFromPostorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0107_BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0108_ConvertSortedArray2BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0109_ConvertSortedList2BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0110_BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0111_MinimumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0112_PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0113_PathSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0116_PopulatingNextRightPointersInEachNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0124_BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0144_BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0145_BinaryTreePostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0199_BinaryTreeRightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0230_KthSmallestElementInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0255_VerifyPreorderSequenceInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0257_BinaryTreePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0429_NaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0559_MaximumDepthOfNaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/generic/DemoBoundsWildcards4Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/generic/DemoGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/generic/DemoGenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/interface_default_static/DemoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/operator/DemoShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/java/com/conquer_java/springboot/Springboot01HelloworldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/java/com/conquer_java/springboot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/test/java/com/conquer_java/springboot/Springboot01HelloworldApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/com/conquer_java/springboot/Springboot01HelloworldApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/com/conquer_java/springboot/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/test-classes/com/conquer_java/springboot/Springboot01HelloworldApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-03-ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-03-ioc/src/main/java/com/conquer_java/spring/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-03-ioc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-03-ioc/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-03-ioc/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/main/java/com/conquer_java/spring/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/main/java/com/conquer_java/spring/pojo/MyCalendarFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/main/java/com/conquer_java/spring/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/main/java/com/conquer_java/spring/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/com/conquer_java/spring/pojo/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-04-di/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/IMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/leetcode/DemoSingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/leetcode/binary_tree/DemoSymmetric$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/leetcode/binary_tree/DemoSymmetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/IMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/leetcode/DemoSingleNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/leetcode/binary_tree/DemoSymmetric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/servlet-03-response/src/main/resources/kww.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoMysqlImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoOracleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/dao/UserDaoSqlserverImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/classes/com/conquer_java/spring/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-01-ioc-base/target/test-classes/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-02-hello/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-02-hello/target/classes/com/conquer_java/spring/pojo/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-02-hello/target/test-classes/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/spring-01-ioc_base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/dao/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/dao/UserDaoMysqlImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/dao/UserDaoOracleImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/dao/UserDaoSqlserverImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/java/com/conquer_java/spring/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/src/test/java/MyTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/dao/UserDaoMysqlImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/dao/UserDaoOracleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/dao/UserDaoSqlserverImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/classes/com/conquer_java/spring/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/test-classes/META-INF/spring-01-ioc_base.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-01-ioc_base/target/test-classes/MyTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/src/main/java/com/conquer_java/spring/entity/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/src/test/java/MyTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/META-INF/spring-02-pojo_hello.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/classes/com/conquer_java/spring/entity/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-02-pojo_hello/target/test-classes/MyTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MySpringBoot" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Workspace\Maven\Repository" />
+        <option name="mavenHome" value="D:/Program Files/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n6SKMWZOKactiQwrp3wuU98sTO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Springboot01HelloworldApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot01HelloworldApplication" />
+      <module name="springboot-01-helloworld" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="D:\Workspace\Maven\Repository" />
+            <option name="mavenHome" value="D:/Program Files/Java/apache-maven-3.6.3" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="threads" />
+            <option name="updateIndicesOnProjectOpen" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="D:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Springboot01HelloworldApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1611994344011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611994344011" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1611994344011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611994344011" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1611994344011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611994344011" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1611994344011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611994344011" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1612161623618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1612161623618" />
+    <state x="65" y="58" key="new project wizard" timestamp="1610712041161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="58" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1610712041161" />
+  </component>
+</project>
