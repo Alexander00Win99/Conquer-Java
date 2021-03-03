@@ -31,7 +31,7 @@ import java.util.Random;
  * 【基数排序性能分析】
  * 关键字数量：n
  * 关键字最大位数：m，例如：对于1234这个关键字来说，m=4
- * 关键字的基：10（对于十进制整数来说，radix=10，对应10个桶bucket，分别是bucket0, bucker1, ... bucket9）
+ * 关键字的基：10（对于十进制整数来说，radix=10，对应10个桶bucket，分别是bucket0, bucket1, ... bucket9）
  * 1) 空间复杂度：
  *     O(r)（需要生成radix个bucket）
  * 2) 时间复杂度：
@@ -45,10 +45,10 @@ import java.util.Random;
  * 由于把关键字拆分为多位，分别排序，那么拆分过程可能导致整体语义的“丢失”或者“失真”。例如：基数排序无法处理负数正数混在一起的情况。
  */
 public class DemoRadixSort {
-    private static int RADIX = 10; // 对于每个关键字(数组元素)来说，基是10
+    private final static int RADIX = 10; // 对于每个关键字(数组元素)来说，基是10
 
     public static void lsdRadixSort(int[] arr) {
-        if (arr == null || arr.length == 0) return;
+        if (arr == null || arr.length <= 1) return;
 
         long begin = System.currentTimeMillis();
         int[] intermediate = new int[arr.length]; // 生成数组用于存储基数排序各个中间阶段的排序结果
@@ -58,12 +58,9 @@ public class DemoRadixSort {
         int base = 1; // 起始是最低位个位，依次乘十，直至最高位为止
         while (max / base > 0) {
             int[] buckets = new int[RADIX];
-            for (int bucket : buckets) {
-                bucket = 0;
-            }
             for (int i = 0; i < arr.length; i++) { // Step-01：“分配” —— 对于所有关键字(n个)，依次入桶(radix个)
                 int index = Math.abs(arr[i] / base) % RADIX;
-                buckets[index] = buckets[index] + 1; // bucket[i]不是存储具体哪些关键字，而是存储应放此处的所有关键字个数总和，大于1代表此处重叠
+                buckets[index]++; // bucket[i]不是存储具体哪些关键字，而是存储应放此处的所有关键字个数总和，大于1代表此处重叠
             }
             for (int i = 1; i < buckets.length; i++) { // Step-02：“收集” —— 遍历所有桶，如有数据，依次出桶
                 buckets[i] += buckets[i - 1];
@@ -91,7 +88,29 @@ public class DemoRadixSort {
         System.out.println("本次基数排序占时：" + (end - begin));
     }
 
-    public static void msdRadixSort(int[] arr) {}
+    public static int[] msdRadixSort(int[] arr) {
+        if (arr == null || arr.length <= 1) return arr;
+
+        long begin = System.currentTimeMillis();
+        int[] intermediate = new int[arr.length]; // 生成数组用于存储基数排序各个中间阶段的排序结果
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++)
+            max = Math.max(max, arr[i]);
+        int digitCount = String.valueOf(max).length(); // 十进制数总的位数
+
+        for (int power = digitCount - 1; power >= 0; power--) {
+            int[] buckets = new int[RADIX];
+            for (int i = 0; i < arr.length; i++) {
+                int index = arr[i] / (int) Math.pow(10, power);
+                buckets[index]++;
+            }
+        }
+
+
+        long end = System.currentTimeMillis();
+        System.out.println("本次基数排序占时：" + (end - begin));
+        return intermediate;
+    }
 
     public static int[] genRandArr(int n, int min, int max) { // 生成[min, max]范围随机数n个
         int[] arr = new int[n];
@@ -103,16 +122,21 @@ public class DemoRadixSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = null;
+        System.out.println(String.valueOf(1234).length());
+        int[] arr;
 
-        arr = genRandArr(10000, -1000000, +1000000);
+        arr = genRandArr(100, -1000000, +1000000);
         System.out.println(Arrays.toString(arr));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         lsdRadixSort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
-        arr = genRandArr(10000, +1000000, +2000000);
+        System.out.println();
+        System.out.println("由此可见：基数排序无法正确处理正负混合情况！");
+        System.out.println();
+
+        arr = genRandArr(100, +1000000, +2000000);
         System.out.println(Arrays.toString(arr));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         lsdRadixSort(arr);

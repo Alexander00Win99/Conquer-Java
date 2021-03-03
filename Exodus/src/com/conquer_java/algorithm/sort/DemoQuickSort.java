@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DemoQuickSort {
     public static void quickSort(int[] arr, int start, int end) {
-        if (start >= end) return;
+        if (arr == null || arr.length <= 1 || start >= end || start < 0 || start >= arr.length || end < 0 || end >= arr.length) return;
         int candidate = arr[start];
         int i = start;
         int j = end;
@@ -43,16 +43,25 @@ public class DemoQuickSort {
          */
         System.out.println(arr);
         System.out.println(Arrays.toString(arr));
-        Arrays.stream(arr).forEach(System.out::println);
+        Arrays.stream(arr).forEach(element -> {
+            System.out.print(element + " ");
+        });
+        System.out.println();
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
+        System.out.println("打印二维数组");
         System.out.println(Arrays.toString(arr2dimension));
         System.out.println(Arrays.deepToString(arr2dimension));
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
+        System.out.println("打印三维数组");
         System.out.println(Arrays.toString(arr3dimension));
         System.out.println(Arrays.deepToString(arr3dimension));
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
         quickSort(arr, 0, arr.length - 1);
         System.out.println(arr);
         System.out.println(Arrays.toString(arr));
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     }
 }

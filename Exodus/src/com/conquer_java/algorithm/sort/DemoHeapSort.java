@@ -1,6 +1,5 @@
 package com.conquer_java.algorithm.sort;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -13,6 +12,8 @@ import java.util.Arrays;
  */
 public class DemoHeapSort {
     public static void heapSort(int[] arr) {
+        if (arr == null || arr.length <= 1) return;
+
         buildHeap(arr); // 对于整棵树进行堆化调整
         swap(arr, 0, arr.length - 1);
         for (int i = arr.length - 2; i > 0; i--) {
@@ -134,9 +135,12 @@ public class DemoHeapSort {
 
     public static void swap(int[] arr, int i, int j) {
         if (arr == null || arr.length == 0 || i < 0 || i >= arr.length || j < 0 || j >= arr.length) return;
-        arr[i] = arr[i] ^ arr[j];
-        arr[j] = arr[i] ^ arr[j];
-        arr[i] = arr[i] ^ arr[j];
+
+        if (i != j) {
+            arr[i] = arr[i] ^ arr[j];
+            arr[j] = arr[i] ^ arr[j];
+            arr[i] = arr[i] ^ arr[j];
+        }
     }
 
     public static void main(String[] args) {
@@ -146,10 +150,15 @@ public class DemoHeapSort {
             System.out.printf(element + " ");
         });
         System.out.println();
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("堆化处理结果如下：");
         heapify_recursive(tree, 0);
         Arrays.stream(tree).forEach(element -> {
             System.out.printf(element + " ");
         });
+        System.out.println();
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         System.out.println();
 
         tree = new int[] {4, 16, 81, 25, 49, 9, 36, 64, 1, 100, 128};
@@ -157,10 +166,14 @@ public class DemoHeapSort {
             System.out.printf(element + " ");
         });
         System.out.println();
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("堆排序结果如下：");
         //buildHeap(tree);
         heapSort(tree);
         Arrays.stream(tree).forEach(element -> {
             System.out.printf(element + " ");
         });
+        System.out.println();
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     }
 }

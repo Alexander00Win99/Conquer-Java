@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class DemoMergeSort {
     public static void mergeSort(int[] arr, int begin, int end) {
-        if (arr == null || arr.length == 0 || begin < 0 || begin > arr.length - 1 || end < 0 || end > arr.length - 1 || begin >= end) return;
+        if (arr == null || arr.length <= 1 || begin < 0 || begin > arr.length - 1 || end < 0 || end > arr.length - 1 || begin >= end) return;
 
         int mid = (end - begin) / 2 + begin;
         mergeSort(arr, begin, mid);
@@ -55,11 +55,15 @@ public class DemoMergeSort {
         System.out.println();
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
-        arr = genRandArr(30, 0, 100);
+        System.out.println();
+
+        arr = genRandArr(30, -100, 100);
         System.out.println(Arrays.toString(arr));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         mergeSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+        System.out.println("由此可见：归并排序能够处理正负混合情况！");
     }
 }
