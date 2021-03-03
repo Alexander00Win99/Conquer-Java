@@ -20,7 +20,7 @@ public class Leetcode_0146_LRUCache<K, V> {
         private class Node {
             K key;
             V value;
-            Node prev, next; // dummy节点，指向双向链表的首尾节点的指针
+            Node prev, next; // 前后指针
 
             public Node() {
             }
@@ -38,7 +38,7 @@ public class Leetcode_0146_LRUCache<K, V> {
             }
         }
 
-        private Node head, tail;
+        private Node head, tail; // dummy节点，指向双向链表的首尾节点的指针
 
         public DoubleLinkedList() {
             this.head = new Node();
@@ -108,7 +108,11 @@ public class Leetcode_0146_LRUCache<K, V> {
             list.addFirst(node);
             map.put(key, node);
         } else {
-            if (size >= capacity) { // 缓存容量到达上限之时，map需要根据key删除对应节点地址引用，如果Node节点只存value，那么list.removeLast()的返回结果就无法向map提供remove()操作所需参数key。
+            /**
+             * 当缓存容量到达上限时，map需要根据key删除对应节点地址引用，如果Node节点只存value信息，
+             * 那么无法通过list.removeLast()的返回结果（Node对象）提取map的remove()操作所需key信息。
+             */
+            if (size >= capacity) {
                 DoubleLinkedList.Node last = list.removeLast();
                 map.remove(last.key);
                 size--;

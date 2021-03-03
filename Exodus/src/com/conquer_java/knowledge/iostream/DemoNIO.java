@@ -1,4 +1,4 @@
-package com.conquer_java.knowledge.stream;
+package com.conquer_java.knowledge.iostream;
 
 /**
  * 阻塞 VS 非阻塞

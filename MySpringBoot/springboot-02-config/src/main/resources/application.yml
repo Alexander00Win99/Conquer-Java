@@ -1,0 +1,47 @@
+#配置文件之中可以配置哪些东西呢？可以参考官方配置(内容繁杂，记忆痛苦)，或者通过了解原理。
+#通常配置文件取名application.yml而非application.properties。
+#YML除了可以存储properties文件的KV键值对信息，还可存储对象，
+#YML强大之处在于：可以直接给实体类赋值
+
+server:
+  port: 8080
+
+# 1) 存储对象（分级写法）
+person:
+  name: Alexander 温-${random.uuid}
+  gender: male
+  birthdate: 2001/01/01
+  creditCards: {CMB-招商银行: 0000 0000 0000 0000, CMBC-民生银行: 9999 9999 9999 9999} # K中文打头就会报错
+#  creditCards: # MAP<K, V>的键K中文打头，直接报错，包含中文，无法显示，值V可以包含中文。
+#    China Merchants Bank-招商银行: 招商银行 0000 0000 0000 0000 招商银行
+#    China Minsheng Bank-民生银行: 民生银行 9999 9999 9999 9999 民生银行
+  hobbies:
+    - books
+    - songs
+    - movies
+    - sports
+  books:
+    - 红楼梦
+    - 三国演义
+  songs:
+    - 殇
+    - Regret
+  movies: [开国大典, 上甘岭]
+  sports: [篮球, 网球]
+  dog:
+    name: 旺财-${person.demo:康玮玮} # EL表达式 - 占位符：YES:前值；NO:后值
+    age: 9
+  demo: SunnyCony
+#    super.name: 秦始皇
+#    super.age: 2222
+
+# 2) 存储对象（行内写法）
+student: {id: 24, name: Alexander 温, sex: 男}
+
+# 3) 存储数组（分级写法）
+pets:
+  - cat
+  - dog
+
+# 4) 存储数组（行内写法）
+livestock: [pig, cow]

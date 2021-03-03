@@ -17,10 +17,10 @@ import java.util.Map;
  *     (table.length - 1)按位与操作，只能利用hash值低位数字的随机性，为了保证存储位置的均匀性，必须充分利用hash值从高到低所有32位各位的随机性，因此，通过右移高位使其参与低位运算增加随机性。
  * 五、在多线程高并发环境下扩容可能形成死循环(JDK1.8采用尾插法避免此点)：
  *     两个线程同时执行到transfer()方法中的“node.next = newTable[index];”，线程1停止，线程2继续执行；
- *     此时，线程1的node和next指针分别指向：oldTable[i]和oldTable[i].next；
- *     线程2继续执行转移元素操作，将老数组oldTable[i]位置的旧桶oldBucket中前两元素转移值新数组后停止；
- *     此时，线程2转移操作的结果：在新数组newTable[index]位置的新桶newBucket中前两元素依次是oldTable[i].next和oldTable[i]，也即原来的next节点的next指针指向原来的node节点，两者先后顺序发生颠倒；
- *     线程1唤醒继续执行“node.next = newTable[index];”语句，操作导致：原来的node节点的next指针指向原来的next节点，形成死循环；
+ *     此时，线程1的node和next指针分别指向：oldTable[i]==a和oldTable[i].next==b；
+ *     线程2继续执行转移元素操作，将老数组oldTable[i]位置的旧桶oldBucket中前两元素转移至新数组newTable[index]（index不一定等于i）后停止；
+ *     此时，线程2转移操作的结果：在新数组newTable[index]位置的新桶newBucket中前两元素依次是oldTable[i].next==b和oldTable[i]==a，也即原来的next节点的next指针指向原来的node节点（b.next==a），两者先后顺序发生颠倒；
+ *     线程1唤醒继续执行“node.next = newTable[index];”语句，操作导致：原来的node节点的next指针指向原来的next节点（a.next==b），形成死循环；
  *
  * @param <K>
  * @param <V>
@@ -220,7 +220,7 @@ public class MyHashMap<K, V> implements IMyMap<K, V> {
                     int index = indexForHash(node.hash, newCapacity);
                     node.next = newTable[index];
                     newTable[index] = node;
-                    node = node.next;
+                    node = next;
                 } while (node != null);
             }
         }
@@ -256,19 +256,24 @@ public class MyHashMap<K, V> implements IMyMap<K, V> {
 
     @Override
     public V get(K k) {
+        Node<K, V> node = getNode(k);
+        return null == node ? null : node.getValue(); // ！！！！【重点注意】——如果上面Node<K, V>(JDK1.8，或者JDK1.7的Entry<K, V>)泛型忘记书写，此处报错Object->V的类型匹配错误！！！！
+    }
+
+    public final Node<K, V> getNode(K k) {
         if (size == 0) return null;
-        // Step-01: key通过hash()计算得到hash作为数组下标index
-        int hash = hash(k);
-        // Step-02: 循环遍历数组下标位置的链表之中的每个元素（key值相同或者相等即为所需元素）
-        Node<K, V> e = table[hash];
+        // Step-01: key通过hash()计算得到hash
+        int hash = k == null ? 0 : hash(k);
+        // Step-02: 利用hash求得数组下标index，遍历当前下标位置链表之中的每个元素（key值相同或者相等即为所需元素）
+        Node<K, V> e = table[indexForHash(hash, table.length)];
         while (e != null) {
             if (k == e.getKey() || k.equals(e.getKey())) {
-                return e.getValue(); // ！！！！【重点注意】——如果上面Entry<K, V>泛型忘记书写，此处报错Object->V的类型匹配错误！！！！
+                return e;
             }
             e = e.next;
         }
+        // Step-03: 链表之中没有指定key值元素，返回null
         return null;
-        // Step-03: 通过index存储对应Entry对象
     }
 
     @Override

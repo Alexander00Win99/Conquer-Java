@@ -1,4 +1,4 @@
-package com.conquer_java.algorithm.leetcode;
+package com.conquer_java.algorithm.exercise_leetcode.dynamic_programming;
 
 /**
  * 【目标】：掌握动态规划算法
