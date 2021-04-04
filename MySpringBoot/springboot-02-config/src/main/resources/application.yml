@@ -31,6 +31,8 @@ person:
   dog:
     name: 旺财-${person.demo:康玮玮} # EL表达式 - 占位符：YES:前值；NO:后值
     age: 9
+  username: alex-123456@qq.com
+  password: 123456
   demo: SunnyCony
 #    super.name: 秦始皇
 #    super.age: 2222

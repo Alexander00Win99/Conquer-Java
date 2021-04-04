@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+    <title>Login Template for Bootstrap</title>
+    <link rel="stylesheet" th:href="@{/static/login/login.css}">
+<!--    <link rel="stylesheet" th:href="@{/static/login/login.css}">-->
+</head>
+<body>
+    <img class="logo-login" src="../static/login/images/logo-login.png" th:src="@{/alex1/login/images/logo-login.png}" alt="" width="75" height="75"></img>
+    <form class="form-login" action="dashboard.html">
+        <h1 th:text="#{login.tip}">Please sign in</h1>
+<!--                <h1 th:text="#{login.tips}"><span>Please sign in</span></h1>-->
+        <label class="username" th:text="#{login.username}">username</label>
+        <input type="text" class="form-control" placeholder="username" required="" autofocus="">
+        <label class="password" th:text="#{login.password}">password</label>
+        <input type="text" class="form-control" placeholder="password" required="" autofocus="">
+        <div class="checkbox">
+            <label><input type="checkbox" value="remember-me" th:value="#{login.remember-me}">[[${login.remember-me}]]</label>
+        </div>
+        <button class="btn-login" type="submit" th:value="#{login.submit}">[[#{login.remember-me}]]</button>
+        <p class="text-muted">0 2020-2021</p>
+        <a class="language">English</a>
+        <a class="language">中文</a>
+    </form>
+<!--    <div class="login">-->
+<!--        <div class="login-inner">-->
+<!--            <img class="logo-login" src="../static/login/images/logo0.png" th:src="@{/alex1/login/images/logo0.png}" alt="" width="75" height="75"></img>-->
+<!--                <ul>-->
+<!--                    <li>-->
+<!--                        <input type="text" class="user" placeholder="请输入账号">-->
+<!--                        <img src="../static/login/images/user.png">-->
+<!--                        <div class="text">11位手机号码或者合法邮箱账号</div>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <input type="password" class="key" placeholder="请输入密码">-->
+<!--                        <img src="../static/login/images/key.png">-->
+<!--                        <div class="text">可由字母和数字组成+首位必须是字母+长度不小于八位</div>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <div class="error hidden">输入格式错误，请重新输入！</div>-->
+<!--                <div class="login-tab1">-->
+<!--                    <div class="login-tab1-left">-->
+<!--                        <button class="btn-login">登录</button>-->
+<!--                        不是会员？-->
+<!--                        <a href="">注册</a>-->
+<!--                    </div>-->
+<!--                    <div class="login-tab1-right">-->
+<!--                        <a href="">忘记密码</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="login-tab2">-->
+<!--                    <a href="">-->
+<!--                        <img src="../static/login/images/weixin.png" alt="">微信登陆-->
+<!--                    </a>-->
+<!--                    <a href="">-->
+<!--                        <img src="../static/login/images/zhifubao.png" alt="">支付宝登陆-->
+<!--                    </a>-->
+<!--                </div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--    <script src="../static/login/login.js"></script>-->
+</body>
+</html>

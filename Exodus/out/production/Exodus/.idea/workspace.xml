@@ -5,69 +5,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfdf7d7-556d-4ec6-b839-ade7c60d2b58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoQuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoShellSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/iostream/DemoNIO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/iostream/DemoStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0053_MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0062_UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0070_ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0121_BestTime2BuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0122_BestTime2BuyAndSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0123_BestTime2BuyAndSellStockIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0188_BestTime2BuyAndSellStockIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0198_HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0300_LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0303_RangeSumQueryImmutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0309_BestTime2BuyAndSellStockWithCooldown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_0714_BestTime2BuyAndSellStockWithTransactionFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_1025_DivisorGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_1143_LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/Leetcode_1218_LongestArithmeticSubsequenceOfGivenDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0460_LFUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0114_FlattenBinaryTree2LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0129_SumRoot2LeafNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0156_BinaryTreeUpsideDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0222_CountCompleteTreeNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0437_PathSumIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/sort/DemoHeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/sort/DemoQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/sort/DemoShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/DemoRepeatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/arrays/DemoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/iostream/DemoStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/java/com/conquer_java/springboot/Springboot02ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/java/com/conquer_java/springboot/pojo/Pets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/test/java/com/conquer_java/springboot/Springboot02ConfigApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/IMyMap$Entry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/IMyMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/MyHashMap$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/MyHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/TestMyHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/HW_ConstructBinaryTreeFromString$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/HW_ConstructBinaryTreeFromString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/HW_DisassembleConsecutiveNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoCommonDivisorAndCommonMultiple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoCubeRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoReverseString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/Divide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0017_LetterCombinationsOfPhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0022_GenerateParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0038_CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/stack/Leetcode_0020_ValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0536_ConstructBinaryTreeFromString$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0536_ConstructBinaryTreeFromString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoBubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoInsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoSelectSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoList2Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/HW_ConstructBinaryTreeFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/HW_DisassembleConsecutiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCommonDivisorAndCommonMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCubeRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0017_LetterCombinationsOfPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0022_GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0038_CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/stack/Leetcode_0020_ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0536_ConstructBinaryTreeFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/arrays/DemoList2Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/config/demo_application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/demo_application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/application-develop.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/application-product.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/config/demo_application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/demo_application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/main/java/com/conquer_java/springboot/Springboot03WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/main/java/com/conquer_java/springboot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/main/resources/public/public.demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/main/resources/resources/resources.demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/main/resources/static/static.demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/src/test/java/com/conquer_java/springboot/Springboot03WebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/classes/com/conquer_java/springboot/Springboot03WebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/classes/com/conquer_java/springboot/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/classes/public/public.demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/classes/resources/resources.demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/classes/static/static.demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-03-web/target/test-classes/com/conquer_java/springboot/Springboot03WebApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../od_kaoshi/src/main/java/org/example/DemoExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../od_kaoshi/src/main/java/org/example/DemoMaxSubMatrixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../od_kaoshi/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../od_kaoshi/target/test-classes/org/example/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0146_LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0146_LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0113_PathSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0113_PathSumII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/leetcode/DemoClimbStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/annotation/MyAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/stream/DemoNIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/stream/DemoStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/stream/DemoStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0146_LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/list/Leetcode_0146_LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/leetcode/DemoClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_leetcode/dynamic_programming/DemoClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/annotation/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/stream/DemoNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/iostream/DemoNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/stream/DemoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/stream/DemoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/IMyMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/IMyMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/TestMyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoHeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoRadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoRadixSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/algorithm/sort/DemoShellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/IMyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/myhashmap/IMyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/myhashmap/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/hashmap/TestMyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/data_structure/myhashmap/TestMyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/algorithm/sort/DemoRadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/algorithm/sort/DemoRadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/arrays/DemoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/arrays/DemoArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringBoot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringBoot/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringBoot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/java/com/conquer_java/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/java/com/conquer_java/springboot/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/target/classes/com/conquer_java/springboot/Springboot01HelloworldApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/target/classes/com/conquer_java/springboot/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-01-helloworld/target/test-classes/com/conquer_java/springboot/Springboot01HelloworldApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/java/com/conquer_java/springboot/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/java/com/conquer_java/springboot/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/alex.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/com/conquer_java/springboot/Springboot02ConfigApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/com/conquer_java/springboot/pojo/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/com/conquer_java/springboot/pojo/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/com/conquer_java/springboot/pojo/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/classes/com/conquer_java/springboot/pojo/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringBoot/springboot-02-config/target/test-classes/com/conquer_java/springboot/Springboot02ConfigApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/src/main/java/com/conquer_java/springboot/helloworld/HelloworldApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/src/test/java/com/conquer_java/springboot/helloworld/HelloworldApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +185,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -153,25 +224,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/conquer_java/design_pattern/factory/factory_method" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\prototype" />
-      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\builder" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.conque_java.design_pattern.builder.build_house" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.conquer_java.knowledge.annotation" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.conquer_java.algorithm.exercise_nowcoder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conquer_java\design_pattern\factory\factory_method" />
@@ -180,57 +241,67 @@
       <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\JVM\Volatile" />
       <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\knowledge\JSR133" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\prototype" />
+      <recent name="D:\Workspace\Java\IdeaProjects\Exodus\src\com\conque_java\design_pattern\builder" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.conque_java.design_pattern.builder.build_house" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.conquer_java.algorithm.exercise_nowcoder" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DemoHeapSort">
-    <configuration name="DemoHeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.sort.DemoHeapSort" />
+  <component name="RunManager" selected="Application.Leetcode_0017_LetterCombinationsOfPhoneNumber">
+    <configuration name="DemoList2Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.knowledge.arrays.DemoList2Array" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.sort.DemoQuickSort" />
+    <configuration name="Leetcode_0017_LetterCombinationsOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.exercise_leetcode.backtracking.Leetcode_0017_LetterCombinationsOfPhoneNumber" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.sort.DemoShellSort" />
+    <configuration name="Leetcode_0020_ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.exercise_leetcode.stack.Leetcode_0020_ValidParentheses" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.knowledge.stream.DemoStream" />
+    <configuration name="Leetcode_0022_GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.exercise_leetcode.backtracking.Leetcode_0022_GenerateParentheses" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode_0114_FlattenBinaryTree2LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.exercise_leetcode.tree.Leetcode_0114_FlattenBinaryTree2LinkedList" />
+    <configuration name="Leetcode_0401_BinaryWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.algorithm.exercise_leetcode.backtracking.Leetcode_0401_BinaryWatch" />
       <module name="Exodus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Leetcode_0114_FlattenBinaryTree2LinkedList" />
-      <item itemvalue="Application.DemoQuickSort" />
-      <item itemvalue="Application.DemoStream" />
-      <item itemvalue="Application.DemoShellSort" />
-      <item itemvalue="Application.DemoHeapSort" />
+      <item itemvalue="Application.Leetcode_0022_GenerateParentheses" />
+      <item itemvalue="Application.Leetcode_0020_ValidParentheses" />
+      <item itemvalue="Application.Leetcode_0017_LetterCombinationsOfPhoneNumber" />
+      <item itemvalue="Application.DemoList2Array" />
+      <item itemvalue="Application.Leetcode_0401_BinaryWatch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoHeapSort" />
-        <item itemvalue="Application.DemoShellSort" />
-        <item itemvalue="Application.DemoQuickSort" />
-        <item itemvalue="Application.DemoStream" />
-        <item itemvalue="Application.Leetcode_0114_FlattenBinaryTree2LinkedList" />
+        <item itemvalue="Application.Leetcode_0017_LetterCombinationsOfPhoneNumber" />
+        <item itemvalue="Application.Leetcode_0401_BinaryWatch" />
+        <item itemvalue="Application.DemoList2Array" />
+        <item itemvalue="Application.Leetcode_0020_ValidParentheses" />
+        <item itemvalue="Application.Leetcode_0022_GenerateParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -246,9 +317,15 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="StructuralSearchPlugin">
-    <searchConfiguration name="user defined" created="1591495792115" text="java.util.concurrent.atomic.AtomicStampedReference" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+    <searchConfiguration name="user defined" created="1616348259716" text="java.util.function.Consumer" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="DIRECTORY" scope_descriptor="*D:\Workspace\Java\IdeaProjects\Exodus" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="user defined" created="1616345490228" text="com.conquer_java.algorithm.sort.OD.DemoCombination" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="DIRECTORY" scope_descriptor="*D:\Workspace\Java\IdeaProjects\Exodus" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="user defined" created="1616345458299" text="java.util.concurrent.atomic.AtomicStampedReference" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
       <constraint name="__context__" within="" contains="" />
     </searchConfiguration>
   </component>
@@ -259,36 +336,176 @@
     <configuration />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="136" key="GridCell.Tab.0.bottom" timestamp="1614498673678">
+    <state width="1323" height="136" key="GridCell.Tab.0.bottom" timestamp="1616577046141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614498673678" />
-    <state width="1323" height="136" key="GridCell.Tab.0.center" timestamp="1614498673678">
+    <state width="1323" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616577046141" />
+    <state width="1323" height="136" key="GridCell.Tab.0.center" timestamp="1616577046141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614498673678" />
-    <state width="1323" height="136" key="GridCell.Tab.0.left" timestamp="1614498673677">
+    <state width="1323" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616577046141" />
+    <state width="1323" height="136" key="GridCell.Tab.0.left" timestamp="1616577046140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614498673677" />
-    <state width="1323" height="136" key="GridCell.Tab.0.right" timestamp="1614498673678">
+    <state width="1323" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616577046140" />
+    <state width="1323" height="136" key="GridCell.Tab.0.right" timestamp="1616577046141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614498673678" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1614509321765">
+    <state width="1323" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616577046141" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1616576598761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614509321765" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1616576598761" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="root.right" />
         <watch expression="dp" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history>
+      <element expression="LinkedList" />
+    </find-history>
   </component>
 </project>

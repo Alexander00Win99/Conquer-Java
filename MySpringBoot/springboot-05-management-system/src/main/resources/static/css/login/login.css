@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    background-image: url('static/images/login/bg.png');
+    background-color: #fef9f0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.login-inner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.login-logo{
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.login-form{
+    width: 450px;
+    background-color: #fff;
+    padding: 50px;
+    border-top: 5px solid #dd3e42;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-form h2 span{
+    display: inline-block;
+    color: #dd3e42;
+    border-bottom: 1px solid #dd3e42;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.login-form li{
+    position: relative;
+    margin-bottom: 20px;
+}
+.login-form li input{
+    width: 100%;
+    padding: 10px;
+    height: 54px;
+    border-radius: 4px;
+}
+.login-form li img{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+}
+.login-form li .text{
+    position: absolute;
+    bottom: -8px;
+    left: 10px;
+    background: #fff;
+    color: orange;
+}
+
+.login-form .error{
+    color: #dd3e42;
+}
+.login-form .hide{
+    display: none;
+}
+
+
+
+.login-form .login-tab1{
+    position: relative;
+    width: 100%;
+    margin: 20px 0 40px;
+    color: #999;
+}
+
+.login-form .login-tab1 > div{
+    display: inline-block;
+    
+}
+.login-form .login-tab1 .login-tab1-left button{
+    width: 150px;
+    height: 45px;
+    background: #dd3e42;
+    color: #fff;
+    line-height: 45px;
+    border: none;
+}
+.login-form .login-tab1 .login-tab1-left a{
+    color: #dd3e42;
+}
+
+.login-form .login-tab1 .login-tab1-right{
+    position: absolute;
+    right: 0;
+    line-height: 45px;
+}
+.login-form .login-tab1 .login-tab1-right a{
+    color: #999;
+}
+
+
+.login-form .login-tab2{
+    width: 100%;
+    text-align: center;
+}
+.login-form .login-tab2 a{
+    margin: 0 30px;
+    color: #999;
+}
+.login-form .login-tab2 a img{
+    width: 36px;
+    height: 36px;
+    margin-right: 7px;
+    vertical-align: middle;
+}

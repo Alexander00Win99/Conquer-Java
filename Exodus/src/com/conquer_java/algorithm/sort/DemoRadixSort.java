@@ -47,6 +47,7 @@ import java.util.Random;
 public class DemoRadixSort {
     private final static int RADIX = 10; // 对于每个关键字(数组元素)来说，基是10
 
+    // ArrayList实现参见：https://www.jb51.net/article/129428.htm
     public static void lsdRadixSort(int[] arr) {
         if (arr == null || arr.length <= 1) return;
 
@@ -88,28 +89,57 @@ public class DemoRadixSort {
         System.out.println("本次基数排序占时：" + (end - begin));
     }
 
+    // 参考：https://blog.csdn.net/u011948899/article/details/78027838
     public static int[] msdRadixSort(int[] arr) {
         if (arr == null || arr.length <= 1) return arr;
 
         long begin = System.currentTimeMillis();
-        int[] intermediate = new int[arr.length]; // 生成数组用于存储基数排序各个中间阶段的排序结果
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++)
-            max = Math.max(max, arr[i]);
-        int digitCount = String.valueOf(max).length(); // 十进制数总的位数
+        int[] result = new int[arr.length]; // 生成数组用于存储基数排序各个中间阶段的排序结果
+        int digitCount = countDigit(arr);
+        int base = (int) Math.pow(10, digitCount - 1);
 
-        for (int power = digitCount - 1; power >= 0; power--) {
-            int[] buckets = new int[RADIX];
-            for (int i = 0; i < arr.length; i++) {
-                int index = arr[i] / (int) Math.pow(10, power);
-                buckets[index]++;
+        int[] buckets = new int[RADIX];
+        for (int i = 0; i < arr.length; i++) {
+            int index = arr[i] / base;
+            buckets[index]++;
+        }
+
+        int[] flag = new int[RADIX];
+        flag[0] = buckets[0];
+        for (int i = 1; i < buckets.length; i++) {
+            flag[i] = buckets[i];
+            buckets[i] += buckets[i - 1]; // 每个bucket[i]代表，映射到下标i位置的某个arr[x]在result中的下标位置是bucket[i] - 1。
+        }
+        for (int i = 0; i < arr.length; i++) {
+            int index = arr[i] / base; // arr[i] <--> buckets[index]
+            if (flag[index] == 1) result[buckets[arr[i] / base] - 1] = arr[i];
+            if (flag[index] > 1) {
+                addAll(result, 0, buckets);
             }
         }
 
 
         long end = System.currentTimeMillis();
         System.out.println("本次基数排序占时：" + (end - begin));
-        return intermediate;
+        return result;
+    }
+
+    public static int countDigit(int[] arr) {
+        if (arr == null || arr.length == 0) return 0;
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++)
+            max = Math.max(max, arr[i]);
+
+        // 返回最大的十进制数的数字位数
+        return String.valueOf(max).length();
+    }
+
+    public static void addAll(int[] arr, int pos, int[] target) {
+        if (arr == null || arr.length <= 1 || target == null || target.length == 0 || arr.length - pos < target.length || pos < 0 || pos >= arr.length - 1) return;
+
+        for (int i = 0; i < target.length; i++) {
+            arr[pos++] = target[i];
+        }
     }
 
     public static int[] genRandArr(int n, int min, int max) { // 生成[min, max]范围随机数n个

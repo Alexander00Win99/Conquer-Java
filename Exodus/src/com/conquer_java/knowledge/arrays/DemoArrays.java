@@ -2,6 +2,9 @@ package com.conquer_java.knowledge.arrays;
 
 import java.util.Arrays;
 
+/**
+ * 【多维数组打印问题】
+ */
 public class DemoArrays {
     public static void main(String[] args) {
         int[] arr = new int[] {6, 1, 2, 5, 9, 3, 4, 7, 0, 8};

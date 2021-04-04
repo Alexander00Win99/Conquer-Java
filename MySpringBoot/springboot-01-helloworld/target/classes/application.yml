@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: default
+---
+spring:
+  profiles:
+    - default
+server:
+  port: 8080
+---
+spring:
+  profiles:
+    - develop
+server:
+  port: 8081
+---
+spring:
+  profiles:
+    - test
+server:
+  port: 8082
+---
+spring:
+  profiles:
+    - product
+server:
+  port: 8088
+---

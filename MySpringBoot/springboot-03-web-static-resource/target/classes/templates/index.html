@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>标题 - templates</title>
+</head>
+<body>
+
+<h1>首页 - templates(Thymeleaf动态主页测试)</h1>
+<!--所有HTML元素均可使用th:xxx元素类型名称形式进行Thymeleaf等价替换，h标签没有th:text元素，div标签具有-->
+<h2 th:text>${msg}不会显示</h2>
+<div id="div01" th:text="${msg}"></div>
+<div id="div02" th:utext="${msg}"></div>
+<ul><li th:each="username:${usernames}" th:text="${username}">可以显示</li></ul>
+<h3 th:each="username:${usernames}" th:text="${username}"></h3>
+<!--如下也能输出数据，但不建议：数据不应置于元素之间-->
+<h3 th:each="username:${usernames}">[[${username}]]</h3>
+
+</body>
+</html>
