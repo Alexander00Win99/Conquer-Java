@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Exodus:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Exodus_jar</output-path>
-    <root id="archive" name="Exodus.jar">
-      <element id="module-output" name="Exodus" />
-    </root>
-  </artifact>
-</component>

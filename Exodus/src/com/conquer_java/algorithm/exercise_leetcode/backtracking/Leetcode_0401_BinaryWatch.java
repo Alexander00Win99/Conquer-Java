@@ -3,6 +3,8 @@ package com.conquer_java.algorithm.exercise_leetcode.backtracking;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom represent the minutes (0-59).
@@ -173,5 +175,12 @@ public class Leetcode_0401_BinaryWatch {
 
     public static void main(String[] args) {
         constructTimeMap();
+        String emailRegExp = "[a-zA-Z_]{1,}[0-9]{0,}@(([a-zA-z0-9]-*){1,}\\.){1,3}[a-zA-z\\-]{1,}";
+        Pattern pattern = Pattern.compile(emailRegExp, Pattern.CASE_INSENSITIVE);
+        Matcher matcher;
+        matcher = pattern.matcher("alex@qq.com");
+        System.out.println(matcher.matches());
+        matcher = pattern.matcher("alex1234@abc.com.abc.net.abc.org");
+        System.out.println(matcher.matches());
     }
 }

@@ -1,7 +1,5 @@
 package com.conquer_java.design_pattern.singleton;
 
-import com.mysql.cj.util.StringUtils;
-
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -65,11 +63,11 @@ public class ContainerSingleton {
         return map.get(key);
     }
 
-    public static void putInstance(String key, Object instance) {
-        if (!StringUtils.isNullOrEmpty(key) && instance != null)
-            if (!map.containsKey(key))
-                map.put(key, instance);
-    }
+//    public static void putInstance(String key, Object instance) {
+//        if (!StringUtils.isNullOrEmpty(key) && instance != null)
+//            if (!map.containsKey(key))
+//                map.put(key, instance);
+//    }
 
     static class FirstSingleton {
         private static final FirstSingleton FIRST_SINGLETON = new FirstSingleton();

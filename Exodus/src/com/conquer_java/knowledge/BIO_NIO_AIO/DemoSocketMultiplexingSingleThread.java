@@ -10,18 +10,24 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * 【多路复用器】——Java NIO的Selector包(封装select|poll|epoll)
+ * 1) 负责通知数据状态，并不负责数据读写；
+ * 2)
+ * 3) 无论select、poll、epoll都是同步IO模式，需要APP应用程序自行处理数据读写；
+ */
 public class DemoSocketMultiplexingSingleThread {
-    private ServerSocketChannel ssc = null;
+    private ServerSocketChannel server = null;
     private Selector selector = null;
     private static final int PORT = 9999;
 
     public void init() {
         try {
-            ssc = ServerSocketChannel.open();
-            ssc.configureBlocking(false);
-            ssc.bind(new InetSocketAddress(PORT));
+            server = ServerSocketChannel.open();
+            server.configureBlocking(false);
+            server.bind(new InetSocketAddress(PORT));
             selector = Selector.open();
-            ssc.register(selector, SelectionKey.OP_ACCEPT);
+            server.register(selector, SelectionKey.OP_ACCEPT);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -55,13 +61,13 @@ public class DemoSocketMultiplexingSingleThread {
 
     public void acceptHandler(SelectionKey key) {
         try {
-            ServerSocketChannel ssc = (ServerSocketChannel) key.channel();
-            SocketChannel clientChannel = ssc.accept();
-            clientChannel.configureBlocking(false);
+            ServerSocketChannel server = (ServerSocketChannel) key.channel();
+            SocketChannel client = server.accept();
+            client.configureBlocking(false);
             ByteBuffer buffer = ByteBuffer.allocateDirect(8192);
-            clientChannel.register(selector, SelectionKey.OP_READ, buffer);
+            client.register(selector, SelectionKey.OP_READ, buffer);
             System.out.println("++++++++++++++++Begin++++++++++++++++");
-            System.out.println("客户端：" + clientChannel.getRemoteAddress() + "成功连接");
+            System.out.println("客户端：" + client.getRemoteAddress() + "成功连接");
             System.out.println("----------------End----------------");
         } catch (IOException e) {
             e.printStackTrace();
@@ -69,23 +75,23 @@ public class DemoSocketMultiplexingSingleThread {
     }
 
     public void readHandler(SelectionKey key) {
-        SocketChannel clientChannel = (SocketChannel) key.channel();
+        SocketChannel client = (SocketChannel) key.channel();
         ByteBuffer buffer = (ByteBuffer) key.attachment();
         buffer.clear();
         int read = 0;
         try {
             while (true) {
-                read = clientChannel.read(buffer);
+                read = client.read(buffer);
                 if (read > 0) {
                     buffer.flip();
                     while (buffer.hasRemaining()) {
-                        clientChannel.write(buffer);
+                        client.write(buffer);
                     }
                     buffer.clear();
                 } if (read == 0) {
                     break;
                 } else {
-                    clientChannel.close();
+                    client.close();
                     break;
                 }
             }

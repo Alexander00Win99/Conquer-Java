@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class DemoSelectSort {
     public static void selectSort(int[] arr) {
+        if (arr == null || arr.length <= 1) return;
+
         for (int i = 0; i < arr.length; i++) {
             int min = arr[i];
             int minIndex = i;

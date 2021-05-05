@@ -8,15 +8,25 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-config/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-web-static-resource/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-05-management-system/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-00-automatic-assembly/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-execise-employee-management/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-exercise-using-database/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-security/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot-09-shiro/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

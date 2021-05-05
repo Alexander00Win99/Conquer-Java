@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Exodus.iml" filepath="$PROJECT_DIR$/Exodus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../netty-rpc-server/netty-rpc-server.iml" filepath="$PROJECT_DIR$/../netty-rpc-server/netty-rpc-server.iml" />
-    </modules>
-  </component>
-</project>

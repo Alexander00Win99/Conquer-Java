@@ -1,7 +1,6 @@
 package com.conquer_java.knowledge.JSR133;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.*;
 
 /**
  * 【目标】：掌握volatile关键字的可见性原理 + Log4j用法
@@ -160,7 +159,8 @@ public class DemoVolatileVisibility {
      * DOMConfigurator.configure(String filename) // 读取XML配置文件
      */
     static {
-        PropertyConfigurator.configure("src/log4j.properties");
+        PropertyConfigurator.configure("src/com/conquer_java/knowledge/JSR133/log4j-config.properties");
+//        PropertyConfigurator.configure("src/com/conquer_java/knowledge/JSR133/log4j.properties");
     }
 
     // 主内存的共享变量initFlag如果没有volatile修饰，工作内存的变量副本就会无法获取更新信息

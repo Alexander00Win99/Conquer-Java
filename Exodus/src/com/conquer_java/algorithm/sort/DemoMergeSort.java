@@ -5,7 +5,10 @@ import java.util.Random;
 
 public class DemoMergeSort {
     public static void mergeSort(int[] arr, int begin, int end) {
-        if (arr == null || arr.length <= 1 || begin < 0 || begin > arr.length - 1 || end < 0 || end > arr.length - 1 || begin >= end) return;
+        if (arr == null || arr.length <= 1
+                || begin < 0 || begin >= arr.length
+                || end < 0 || end >= arr.length
+                || begin >= end) return;
 
         int mid = (end - begin) / 2 + begin;
         mergeSort(arr, begin, mid);

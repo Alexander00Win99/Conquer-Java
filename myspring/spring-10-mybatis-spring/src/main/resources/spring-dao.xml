@@ -7,7 +7,7 @@
     <!--DataSource：使用Spring的数据源替换MyBatis的JDBC连接配置。常见数据源有：c3p0、dbcp、druid等-->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/demo_mybatis?&amp;useSSL=true&amp;serverTimezone=UTC&amp;useUnicode=true&amp;useEncoding=true&amp;characterEncoding=UTF-8"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/demo_mybatis?useSSL=true&amp;serverTimezone=UTC&amp;useUnicode=true&amp;useEncoding=true&amp;characterEncoding=UTF-8"/>
         <property name="username" value="root"/>
         <property name="password" value="123456"/>
     </bean>

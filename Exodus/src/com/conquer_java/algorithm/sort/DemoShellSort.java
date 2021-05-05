@@ -20,6 +20,7 @@ import java.util.Arrays;
 public class DemoShellSort {
     public static void shellSort(int[] arr) {
         if (arr == null || arr.length <= 1) return;
+
         int step = arr.length / 2; // 初始步长可以任意选择，通常首选数组长度的一半作为初始步长，往后
         while (step > 0) {
             for (int i = step; i < arr.length; i++) {

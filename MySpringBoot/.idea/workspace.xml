@@ -5,389 +5,774 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39f8d3db-48a7-462a-919f-ad42c288a0ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/IMyMap$Entry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/IMyMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/MyHashMap$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/MyHashMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/myhashmap/TestMyHashMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/HW_ConstructBinaryTreeFromString$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/HW_ConstructBinaryTreeFromString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/HW_DisassembleConsecutiveNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoArea.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoCommonDivisorAndCommonMultiple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoCubeRoot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/DemoReverseString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_interview/OD/Divide.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0017_LetterCombinationsOfPhoneNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0022_GenerateParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0038_CombinationSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/stack/Leetcode_0020_ValidParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0536_ConstructBinaryTreeFromString$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0536_ConstructBinaryTreeFromString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoBubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoInsertSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoSelectSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoList2Array.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/HW_ConstructBinaryTreeFromString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/HW_DisassembleConsecutiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/DemoArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCommonDivisorAndCommonMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/DemoCubeRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/DemoIntSumInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/DemoReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_interview/OD/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0017_LetterCombinationsOfPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0022_GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0038_CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/stack/Leetcode_0020_ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/tree/Leetcode_0536_ConstructBinaryTreeFromString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/arrays/DemoList2Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/demo_application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application-develop.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application-product.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/config/demo_application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/demo_application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application-develop.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application-product.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/config/demo_application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/demo_application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-config/target/classes/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/java/com/conquer_java/springboot/Springboot03WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/java/com/conquer_java/springboot/config/MyWebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/java/com/conquer_java/springboot/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/java/com/conquer_java/springboot/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/demo/demo.demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/public/public.demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/resources/resources.demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/static/static.demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/src/test/java/com/conquer_java/springboot/Springboot03WebApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/java/com/conquer_java/springboot/Springboot04SpringmvcAutoconfigurationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/java/com/conquer_java/springboot/config/MyWebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/java/com/conquer_java/springboot/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/resources/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/resources/templates/customized-view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/test/java/com/conquer_java/springboot/Springboot04SpringmvcAutoconfigurationApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/Springboot05ManagementSystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyLocaleResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyWebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/pojo/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_en_UK.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_zh_TW.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/bui-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/dpl-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/main-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/page-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/hide_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/left-slib.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/main-nav-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/main-nav-bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/main-nav-bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/nav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/nav_selected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/resource.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/bui-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/bui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/main-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/page-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/search-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/config-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/editor-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/jquery-1.8.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/module/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/toolbar-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/tree-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/css/mobile_web.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/image/home4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/image/icon-address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/image/icon-author.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/con_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/glyphicons-halflings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/input.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/logo-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/zhifubao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/logo_820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/logo_jc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/logo_ym.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/msg_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/msg_box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/nopic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/progressbar_microsoft.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/x_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/z2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/z3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/z4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/artDialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/artDialog.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/jquery.artDialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/jquery.artDialog.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/plugins/iframeTools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/plugins/iframeTools.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/aero_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/aero_s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_close.hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_nw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_sw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_title_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg_css3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg_css3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/close.hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/nw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/sw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg_css3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg_css3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/close.hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/nw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/sw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/chrome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/chrome/border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/chrome/chrome_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg_css3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg_css3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/color_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/close.hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/nw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/sw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/face-sad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/face-smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/succeed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/idialog_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/idialog_s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_close.hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_nw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_sw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_close.hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_nw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_sw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/twitter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/bootstrap.file-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/ckform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/formValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/formValidatorRegex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/logo-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/zhifubao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/menu/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/menu/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/menu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/node/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/node/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/node/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/public/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/role/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/role/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/role/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/user/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/index_origin_backup_without_thymeleaf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/login_reference.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-05-management-system/src/test/java/com/conquer_java/springboot/Springboot05ManagementSystemApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../od_kaoshi/src/main/java/org/example/DemoExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../od_kaoshi/src/main/java/org/example/DemoMaxSubMatrixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../od_kaoshi/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../od_kaoshi/target/test-classes/org/example/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/.idea/libraries/Maven__io_netty_netty_all_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/JSR133/log4j-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/interface_default_static/MyJdbcTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/interface_default_static/MyStatementCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/interface_default_static/TestMain$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/interface_default_static/TestMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/JSR133/log4j-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/interface_default_static/MyJdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/interface_default_static/MyStatementCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/interface_default_static/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/src/main/java/Quickstart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/src/main/resources/shiro.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/BeanC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/DemoAutomaticAssembly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/Springboot00AutomaticAssemblyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/TestAutowiredAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java/com/conquer_java/springboot/TestBeanAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/src/test/java/com/conquer_java/springboot/Springboot00AutomaticAssemblyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/Springboot05ExeciseEmployeeManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/config/MyLocaleResolverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/config/MyLoginHandlerInterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/config/MyWebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/service/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/img/bootstrap-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/js/feather.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/js/jquery-3.2.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/login-verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/login-verification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/common/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/employee/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/employee/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/index-origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/templates/login-verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/test/java/com/conquer_java/springboot/Springboot05ExeciseEmployeeManagementApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/src/main/java/com/conquer_java/springboot/Springboot05ExerciseUsingDatabaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-05-exercise-using-database/src/test/java/com/conquer_java/springboot/Springboot05ExerciseUsingDatabaseApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/main/java/com/conquer_java/springboot/Springboot06DataApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/main/java/com/conquer_java/springboot/config/MyDruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/main/java/com/conquer_java/springboot/controller/JdbcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/test/java/com/conquer_java/springboot/Springboot06DataApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-data/src/test/java/com/conquer_java/springboot/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/java/com/conquer_java/springboot/Springboot07MybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/java/com/conquer_java/springboot/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/java/com/conquer_java/springboot/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/java/com/conquer_java/springboot/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/java/com/conquer_java/springboot/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/java/com/conquer_java/springboot/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-mybatis/src/test/java/com/conquer_java/springboot/Springboot07MybatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/java/com/conquer_java/springboot/Springboot08SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/java/com/conquer_java/springboot/config/MySpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/java/com/conquer_java/springboot/controller/RouterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/static/assets/img/logout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/static/assets/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/static/assets/js/semantic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level1/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level1/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level1/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level2/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level2/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level2/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level3/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level3/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/level3/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/main/resources/templates/views/login-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-security/src/test/java/com/conquer_java/springboot/Springboot08SecurityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../extenal-resources/SpirngBoot-狂神Exercise/SpingBoot-狂神项目-带数据库/springboot-03-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../extenal-resources/SpirngBoot-狂神Exercise/SpingBoot-狂神项目-没数据库/springboot-03-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-00-spi-mechanism/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-00-spi-mechanism/src/main/java/com/conquer_java/spring/spi/api/IParseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-00-spi-mechanism/src/main/java/com/conquer_java/spring/spi/main/SpiMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-00-spi-mechanism/src/main/resources/META-INF/services/com.conquer_java.spring.spi.api.IParseData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/target/classes/com/conquer_java/spring/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/target/classes/com/conquer_java/spring/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/target/classes/com/conquer_java/spring/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/target/classes/mysql_localhost.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/target/test-classes/MybatisNonSpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/.idea/libraries/Maven__com_conque_java_netty_rpc_api_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/.idea/libraries/Maven__io_netty_netty_all_4_1_49_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/IMyMap$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/IMyMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/data_structure/hashmap/TestMyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoHeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoRadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoRadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/sort/DemoShellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/arrays/DemoArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/IMyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/myhashmap/IMyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/myhashmap/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/hashmap/TestMyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/data_structure/myhashmap/TestMyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/sort/DemoRadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/sort/DemoRadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/arrays/DemoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/arrays/DemoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/Exodus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/Exodus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/io.ori/io.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/logs/log_knowledge_volatile-atomic.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/logs/log_knowledge_volatile-atomic.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/logs/log_knowledge_volatile-visibility.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/logs/log_knowledge_volatile-visibility.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/artifacts/Exodus_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/libraries/Maven__com_conque_java_netty_rpc_api_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/libraries/Maven__io_netty_netty_all_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/libraries/commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/Exodus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$FirstSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$FirstSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$SecondSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$SecondSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$ThirdSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton$ThirdSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/design_pattern/singleton/ContainerSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/JSR133/DemoVolatileVisibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/knowledge/JSR133/DemoVolatileVisibility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/com/conquer_java/util/log4j_util/Log4JUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/demo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/io.ori/io.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/io.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/io.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/io.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/logs/log_knowledge_volatile-atomic.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/logs/log_knowledge_volatile-visibility.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/recovery/io.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/src/com/conquer_java/knowledge/JSR133/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/out/production/Exodus/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/recovery/io.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/algorithm/exercise_leetcode/backtracking/Leetcode_0401_BinaryWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/design_pattern/singleton/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/design_pattern/singleton/ContainerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/JSR133/DemoVolatileAtomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/JSR133/DemoVolatileAtomic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/JSR133/DemoVolatileVisibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/JSR133/DemoVolatileVisibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/proxy/dynamic_proxy/UserServiceCglibInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/proxy/dynamic_proxy/UserServiceCglibInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/util/log4j_util/Log4JUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/util/log4j_util/Log4JUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exodus/src/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/src/main/java/com/conquer_java/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/java/com/conquer_java/springboot/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/com/conquer_java/springboot/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld/target/classes/com/conquer_java/springboot/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/java/com/conquer_java/springboot/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/java/com/conquer_java/springboot/pojo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/target/classes/com/conquer_java/springboot/pojo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/target/classes/com/conquer_java/springboot/pojo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/src/main/java/com/conquer_java/springboot/helloworld/HelloworldApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extenal-projects/helloworld/src/test/java/com/conquer_java/springboot/helloworld/HelloworldApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-web-static-resource/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig$MyViewResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig$MyViewResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-web-static-resource/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-web-static-resource/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-00-automatic-assembly/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/Springboot05ManagementSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyLocaleResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyWebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/pojo/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java/com/conquer_java/springboot/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_en_UK.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/i18n/login_en_UK.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/i18n/login_zh_TW.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/i18n/login_zh_TW.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/bui-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/dpl-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/main-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/page-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/css/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/hide_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/left-slib.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/main-nav-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/main-nav-bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/main-nav-bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/nav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/nav_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/resource.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/img/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/bui-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/bui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/main-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/page-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/search-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/common/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/config-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/editor-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/jquery-1.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/module/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/toolbar-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/assets/js/tree-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/login/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/css/mobile_web.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/image/home4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/image/icon-address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/front/image/icon-author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/con_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/key.png" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/images/key.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/logo-login.png" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/images/login-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/weixin.png" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/images/weixin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/login/zhifubao.png" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/images/zhifubao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/logo_820.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/logo_jc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/logo_ym.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/msg_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/msg_box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/nopic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/progressbar_microsoft.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/x_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/z2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/z3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/images/z4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/artDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/artDialog.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/jquery.artDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/jquery.artDialog.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/plugins/iframeTools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/plugins/iframeTools.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/aero_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/aero_s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_title_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/aero/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/black/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/blue/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/chrome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/chrome/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/chrome/chrome_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/color_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/green/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/face-sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/face-smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/succeed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/icons/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/idialog_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/idialog_s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/idialog/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/opera/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/simple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/artDialog/skins/twitter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/bootstrap.file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/ckform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/formValidator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/formValidatorRegex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/js/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/logo-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/images/zhifubao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/resources/static/login-verification/login-verification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/menu/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/menu/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/menu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/node/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/node/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/node/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/public/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/role/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/role/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/role/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/user/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/user/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static/user/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/index_origin_backup_without_thymeleaf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/templates/login_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/src/test/java/com/conquer_java/springboot/Springboot05ManagementSystemApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/META-INF/springboot-05-management-system.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/Springboot05ManagementSystemApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/config/MyLocaleResolverConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/config/MyWebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/dao/DepartmentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/pojo/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/com/conquer_java/springboot/pojo/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/i18n/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/i18n/login_en_UK.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/i18n/login_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/i18n/login_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/i18n/login_zh_TW.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/bui-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/dpl-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/main-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/page-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/css/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/hide_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/left-slib.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/main-nav-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/main-nav-bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/main-nav-bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/nav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/nav_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/resource.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/img/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/bui-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/bui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/main-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/page-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/search-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/common/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/config-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/editor-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/jquery-1.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/module/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/toolbar-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/assets/js/tree-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/css/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/css/login/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/front/css/mobile_web.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/front/image/home4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/front/image/icon-address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/front/image/icon-author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/con_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/login/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/login/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/login/logo-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/login/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/login/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/login/zhifubao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/logo_820.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/logo_jc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/logo_ym.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/msg_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/msg_box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/nopic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/progressbar_microsoft.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/x_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/z2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/z3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/images/z4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/artDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/artDialog.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/jquery.artDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/jquery.artDialog.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/plugins/iframeTools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/plugins/iframeTools.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/aero_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/aero_s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_title_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/aero/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/black/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/blue/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/chrome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/chrome/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/chrome/chrome_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/color_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/green/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/face-sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/face-smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/succeed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/icons/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/idialog_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/idialog_s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/idialog/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/opera/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/simple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/artDialog/skins/twitter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/bootstrap.file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/ckform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/formValidator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/formValidatorRegex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/js/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/images/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/images/logo-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/images/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/images/zhifubao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/menu/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/menu/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/menu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/node/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/node/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/node/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/public/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/role/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/role/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/role/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/user/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/user/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/static/user/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/templates/index_origin_backup_without_thymeleaf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/classes/templates/login_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-05-management-system/target/test-classes/com/conquer_java/springboot/Springboot05ManagementSystemApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/com/conquer_java/spring/pojo/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/com/conquer_java/spring/pojo/MyCalendarFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/com/conquer_java/spring/pojo/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/classes/com/conquer_java/spring/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-04-di/target/test-classes/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/IRent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/Landlord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/MyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/MyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/dynamic_proxy/extension/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/IRent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/Landlord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/Realtor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/classes/com/conquer_java/spring/static_proxy/extension/UserServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-08-proxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-non-spring/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myspring/spring-10-mybatis-spring/target/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/applicationcontext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/mapper/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/com/conquer_java/spring/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myspring/spring-11-transaction/target/test-classes/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/netty-rpc-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc-server/netty-rpc-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/META-INF/netty-rpc-server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/com/conque_java/server/RPCServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/com/conque_java/server/RPCServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/com/conque_java/server/RPCServerStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/com/conque_java/service/Class1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/com/conque_java/service/Class2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc-server/target/classes/com/conque_java/service/impl/Class0.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="demo_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="demo_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="demo_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="demo_mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="demo_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="demo_mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="demo_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="demo_mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="demo_employee: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="demo_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="demo_mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="MySpringBoot" />
@@ -397,6 +782,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -420,6 +806,11 @@
         <option name="userSettingsFile" value="D:\Program Files\Java\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1n6SKMWZOKactiQwrp3wuU98sTO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -431,67 +822,71 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-05-management-system/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\static" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\public" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-execise-employee-management\src\main\resources\templates\error" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\templates\employee" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources" />
       <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\resources" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\resources\fuckU" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\public\fuckme" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\static\js\login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.conquer_java.springboot.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\resources" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\static\js\login" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-01-helloworld\src\main\resources" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-02-config\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\Springboot-09-Shiro-HelloShiro\src\main\java" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-08-security\src\main\resources\static\assets\img" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-08-security\src\main\resources\templates" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-08-security\src\main\resources\static" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-execise-employee-management\src\main\resources\templates\employee" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Springboot05ManagementSystemApplication">
-    <configuration name="Springboot02ConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot02ConfigApplication" />
-      <module name="springboot-02-config" />
+  <component name="RunManager" selected="Application.Quickstart">
+    <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quickstart" />
+      <module name="Springboot-09-Shiro-HelloShiro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot03WebApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot03WebApplication" />
-      <module name="springboot-03-web-static-resource" />
+    <configuration name="Springboot06DataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot06DataApplication" />
+      <module name="springboot-06-data" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot03WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot03WebApplication" />
-      <module name="springboot-03-web-static-resource" />
+    <configuration name="Springboot07MybatisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot07MybatisApplication" />
+      <module name="springboot-07-mybatis" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot04SpringmvcAutoconfigurationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot04SpringmvcAutoconfigurationApplication" />
-      <module name="springboot-04-springmvc-autoconfiguration" />
+    <configuration name="Springboot08SecurityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot08SecurityApplication" />
+      <module name="springboot-08-security" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot05ManagementSystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot05ManagementSystemApplication" />
-      <module name="springboot-05-management-system" />
+    <configuration name="Springboot07MybatisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-07-mybatis" />
+      <option name="PACKAGE_NAME" value="com.conquer_java.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot07MybatisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -553,11 +948,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Springboot05ManagementSystemApplication" />
-        <item itemvalue="Application.Springboot03WebApplication" />
-        <item itemvalue="Application.Springboot04SpringmvcAutoconfigurationApplication" />
-        <item itemvalue="Application.Springboot03WebApplication (1)" />
-        <item itemvalue="Application.Springboot02ConfigApplication" />
+        <item itemvalue="Application.Quickstart" />
+        <item itemvalue="Application.Springboot08SecurityApplication" />
+        <item itemvalue="Application.Springboot07MybatisApplication" />
+        <item itemvalue="JUnit.Springboot07MybatisApplicationTests.contextLoads" />
+        <item itemvalue="Application.Springboot06DataApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -587,18 +982,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="380" y="22" key="#Springboot01HelloworldApplication_(1)" timestamp="1618288453609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="22" key="#Springboot01HelloworldApplication_(1)/0.0.1366.728@0.0.1366.728" timestamp="1618288453609" />
     <state x="397" y="22" key="#Springboot03WebApplication" timestamp="1616648154764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="22" key="#Springboot03WebApplication/0.0.1366.728@0.0.1366.728" timestamp="1616648154764" />
-    <state x="437" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617288191521">
+    <state x="418" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618578281421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1617288191521" />
-    <state x="723" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1617506810946">
+    <state x="418" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1618578281421" />
+    <state x="437" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619338031150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="723" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1617506810946" />
+    <state x="437" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1619338031150" />
+    <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1618977673719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1618977673719" />
     <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1616648142968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -607,140 +1010,74 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1617081069134" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1616629497068">
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1619522899991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616629497068" />
-    <state width="1323" height="273" key="GridCell.Tab.0.bottom" timestamp="1617502950259">
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619522899991" />
+    <state width="1323" height="159" key="GridCell.Tab.0.bottom" timestamp="1619346829778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.0.center" timestamp="1617502950259">
+    <state width="1323" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619346829778" />
+    <state width="1323" height="159" key="GridCell.Tab.0.center" timestamp="1619346829778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.0.left" timestamp="1617502950259">
+    <state width="1323" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619346829778" />
+    <state width="1323" height="159" key="GridCell.Tab.0.left" timestamp="1619346829777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.0.right" timestamp="1617502950259">
+    <state width="1323" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619346829777" />
+    <state width="1323" height="159" key="GridCell.Tab.0.right" timestamp="1619346829778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.1.bottom" timestamp="1617502950259">
+    <state width="1323" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619346829778" />
+    <state width="1323" height="273" key="GridCell.Tab.1.bottom" timestamp="1619249623568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.1.center" timestamp="1617502950259">
+    <state width="1323" height="273" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619249623568" />
+    <state width="1323" height="273" key="GridCell.Tab.1.center" timestamp="1619249623567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.1.left" timestamp="1617502950259">
+    <state width="1323" height="273" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1619249623567" />
+    <state width="1323" height="273" key="GridCell.Tab.1.left" timestamp="1619249623567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state width="1323" height="273" key="GridCell.Tab.1.right" timestamp="1617502950259">
+    <state width="1323" height="273" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1619249623567" />
+    <state width="1323" height="273" key="GridCell.Tab.1.right" timestamp="1619249623568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1617502950259" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1616900331700">
+    <state width="1323" height="273" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1619249623568" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1619345886763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1616900331700" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1617080691678">
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1619345886763" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1619108872399">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617080691678" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1617507889447">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1619108872399" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1618831481997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1617507889447" />
-    <state x="92" y="72" key="new project wizard" timestamp="1617011514154">
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1366.728@0.0.1366.728" timestamp="1618831481997" />
+    <state x="558" y="243" width="326" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1618629714413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="72" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1617011514154" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1617017613015">
+    <state x="558" y="243" width="326" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1618629714413" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1619522875212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617017613015" />
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1617508202491">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619522875212" />
+    <state x="113" y="69" key="new project wizard" timestamp="1619264729848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617508202491" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>498</line>
-          <properties class="org.springframework.web.servlet.DispatcherServlet" method="doDispatch">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>506</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>500</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>502</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>513</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>515</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>521</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>524</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.5/spring-webmvc-5.3.5.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
-          <line>522</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyLocaleResolver.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyLocaleResolver.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyLocaleResolver.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-05-management-system/src/main/java/com/conquer_java/springboot/config/MyLocaleResolver.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="113" y="69" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1619264729848" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1619155465113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1619155465113" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1619256240609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1619256240609" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

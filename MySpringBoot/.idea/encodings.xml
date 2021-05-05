@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springboot-00-automatic-assembly/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-02-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-03-web-static-resource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-04-springmvc-autoconfiguration/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-05-management-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-05-execise-employee-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-05-exercise-using-database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-security/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

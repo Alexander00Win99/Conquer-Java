@@ -8,25 +8,40 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-04-springmvc-autoconfiguration" />
+        <module name="springboot-08-security" />
+        <module name="springboot-05-execise-employee-management" />
+        <module name="springboot-00-automatic-assembly" />
+        <module name="Springboot-09-Shiro-HelloShiro" />
         <module name="springboot-02-config" />
+        <module name="springboot-05-exercise-using-database" />
+        <module name="springboot-06-data" />
         <module name="springboot-01-helloworld" />
-        <module name="springboot-05-management-system" />
-        <module name="MySpringBoot" />
+        <module name="springboot-07-mybatis" />
         <module name="springboot-03-web-static-resource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-00-automatic-assembly (1) (com.conquer_java.springboot)" target="1.8" />
       <module name="springboot-03-web" target="1.8" />
+      <module name="springboot-05-management-system" target="1.8" />
+      <module name="springboot-09-shiro" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-00-automatic-assembly" options="-parameters" />
+      <module name="springboot-00-automatic-assembly (1) (com.conquer_java.springboot)" options="-parameters" />
       <module name="springboot-01-helloworld" options="-parameters" />
       <module name="springboot-02-config" options="-parameters" />
       <module name="springboot-03-web" options="-parameters" />
       <module name="springboot-03-web-static-resource" options="-parameters" />
       <module name="springboot-04-springmvc-autoconfiguration" options="-parameters" />
+      <module name="springboot-05-execise-employee-management" options="-parameters" />
+      <module name="springboot-05-exercise-using-database" options="-parameters" />
       <module name="springboot-05-management-system" options="-parameters" />
+      <module name="springboot-06-data" options="-parameters" />
+      <module name="springboot-07-mybatis" options="-parameters" />
+      <module name="springboot-08-security" options="-parameters" />
     </option>
   </component>
 </project>

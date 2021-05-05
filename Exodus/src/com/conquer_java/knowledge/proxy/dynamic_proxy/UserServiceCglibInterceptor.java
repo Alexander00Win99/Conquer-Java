@@ -1,10 +1,10 @@
 package com.conquer_java.knowledge.proxy.dynamic_proxy;
 
-import java.lang.reflect.Method;
-
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
+
+import java.lang.reflect.Method;
 
 public class UserServiceCglibInterceptor implements MethodInterceptor {
     private Object realObject;
