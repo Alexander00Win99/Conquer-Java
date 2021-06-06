@@ -1,4 +1,4 @@
-package com.conquer_java.knowledge.BIO_NIO_AIO;
+package com.conquer_java.knowledge.BIO_NIO_AIO_Netty;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
