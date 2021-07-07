@@ -7,17 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-09-shiro-helloshiro" />
         <module name="springboot-04-springmvc-autoconfiguration" />
-        <module name="springboot-03-web-static-resource" />
+        <module name="springboot-08-security" />
         <module name="springboot-05-execise-employee-management" />
         <module name="springboot-00-automatic-assembly" />
-        <module name="Springboot-09-Shiro-HelloShiro" />
         <module name="springboot-02-config" />
         <module name="springboot-05-exercise-using-database" />
         <module name="springboot-06-data" />
         <module name="springboot-01-helloworld" />
+        <module name="springboot-10-shiro-spring" />
         <module name="springboot-07-mybatis" />
-        <module name="springboot-08-security" />
+        <module name="springboot-03-web-static-resource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +43,7 @@
       <module name="springboot-06-data" options="-parameters" />
       <module name="springboot-07-mybatis" options="-parameters" />
       <module name="springboot-08-security" options="-parameters" />
+      <module name="springboot-10-shiro-spring" options="-parameters" />
     </option>
   </component>
 </project>

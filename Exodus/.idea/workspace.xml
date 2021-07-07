@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfdf7d7-556d-4ec6-b839-ade7c60d2b58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoNettyIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exodus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exodus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoBIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoBIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoSocketMultiplexingMultiThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoSocketMultiplexingMultipleThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoSocketMultiplexingSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoSocketMultiplexingSingleThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringBoot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MySpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringBoot/.idea/workspace.xml" afterDir="false" />
     </list>

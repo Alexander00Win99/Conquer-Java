@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Springboot-09-Shiro-HelloShiro</artifactId>
+    <artifactId>springboot-09-shiro-helloshiro</artifactId>
 
     <dependencies>
         <dependency>

@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39f8d3db-48a7-462a-919f-ad42c288a0ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoNettyIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/Springboot10ShiroSpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/test/java/com/conquer_java/springboot/Springboot10ShiroSpringApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/Exodus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/Exodus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoBIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoBIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoSocketMultiplexingMultiThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoSocketMultiplexingMultipleThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO/DemoSocketMultiplexingSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/src/com/conquer_java/knowledge/BIO_NIO_AIO_Netty/DemoSocketMultiplexingSingleThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +133,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -154,7 +159,7 @@
   <component name="RunManager" selected="Application.Quickstart">
     <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quickstart" />
-      <module name="Springboot-09-Shiro-HelloShiro" />
+      <module name="springboot-09-shiro-helloshiro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,10 +290,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="380" y="22" key="#Springboot01HelloworldApplication_(1)/0.0.1366.728@0.0.1366.728" timestamp="1618288453609" />
-    <state x="397" y="22" key="#Springboot03WebApplication" timestamp="1616648154764">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="397" y="22" key="#Springboot03WebApplication/0.0.1366.728@0.0.1366.728" timestamp="1616648154764" />
     <state x="418" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618578281421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,10 +302,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1618977673719" />
-    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1616648142968">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1616648142968" />
     <state x="437" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617081069134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -349,10 +346,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1619345886763" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1619108872399">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1625672831307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1619108872399" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625672831307" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1618831481997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -361,14 +358,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="558" y="243" width="326" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1618629714413" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1620830565575">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1625671996228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1620830565575" />
-    <state x="113" y="69" key="new project wizard" timestamp="1619264729848">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1625671996228" />
+    <state x="95" y="47" key="new project wizard" timestamp="1625672718966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="113" y="69" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1619264729848" />
+    <state x="95" y="47" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1625672718966" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1619155465113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

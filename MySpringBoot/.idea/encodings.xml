@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/springboot-06-data/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-07-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
