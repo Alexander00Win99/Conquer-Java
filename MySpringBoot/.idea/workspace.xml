@@ -5,20 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39f8d3db-48a7-462a-919f-ad42c288a0ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/Springboot10ShiroSpringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/test/java/com/conquer_java/springboot/Springboot10ShiroSpringApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exodus/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/springboot-10-shiro-spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/config/MyShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/config/MyUserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/controller/MyShiroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/modify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/MySpringCloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/src/main/java/com/conquer_java/springcloud/pojo/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot-09-Shiro-HelloShiro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +98,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -135,9 +148,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-10-shiro-spring\src\main\resources\templates\user" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-10-shiro-spring\src\main\resources\templates" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-execise-employee-management\src\main\resources\templates\error" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\templates\employee" />
+      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.conquer_java.springboot.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\Springboot-09-Shiro-HelloShiro\src\main\java" />
       <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-08-security\src\main\resources\static\assets\img" />
@@ -145,28 +169,11 @@
       <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-08-security\src\main\resources\static" />
       <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-execise-employee-management\src\main\resources\templates\employee" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.conquer_java.springboot.config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-execise-employee-management\src\main\resources\templates\error" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\templates\employee" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\resources" />
-      <recent name="D:\Workspace\Java\IdeaProjects\MySpringBoot\springboot-05-management-system\src\main\resources\static\js\login" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Quickstart">
+  <component name="RunManager" selected="Application.Springboot10ShiroSpringApplication">
     <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quickstart" />
       <module name="springboot-09-shiro-helloshiro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Springboot06DataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot06DataApplication" />
-      <module name="springboot-06-data" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +188,13 @@
     <configuration name="Springboot08SecurityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot08SecurityApplication" />
       <module name="springboot-08-security" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot10ShiroSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conquer_java.springboot.Springboot10ShiroSpringApplication" />
+      <module name="springboot-10-shiro-spring" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Springboot10ShiroSpringApplication" />
         <item itemvalue="Application.Quickstart" />
         <item itemvalue="Application.Springboot08SecurityApplication" />
         <item itemvalue="Application.Springboot07MybatisApplication" />
         <item itemvalue="JUnit.Springboot07MybatisApplicationTests.contextLoads" />
-        <item itemvalue="Application.Springboot06DataApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -286,94 +300,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="22" key="#Springboot01HelloworldApplication_(1)" timestamp="1618288453609">
+    <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1625678873939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="380" y="22" key="#Springboot01HelloworldApplication_(1)/0.0.1366.728@0.0.1366.728" timestamp="1618288453609" />
-    <state x="418" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618578281421">
+    <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625678873939" />
+    <state x="430" y="201" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1626796225629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1618578281421" />
-    <state x="437" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619338031150">
+    <state x="430" y="201" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1626796225629" />
+    <state width="1323" height="273" key="GridCell.Tab.0.bottom" timestamp="1626885351678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1619338031150" />
-    <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1618977673719">
+    <state width="1323" height="273" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626885351678" />
+    <state width="1323" height="273" key="GridCell.Tab.0.center" timestamp="1626885351678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="797" y="111" width="530" height="582" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1618977673719" />
-    <state x="437" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617081069134">
+    <state width="1323" height="273" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626885351678" />
+    <state width="1323" height="273" key="GridCell.Tab.0.left" timestamp="1626885351677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1617081069134" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1619522899991">
+    <state width="1323" height="273" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626885351677" />
+    <state width="1323" height="273" key="GridCell.Tab.0.right" timestamp="1626885351678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619522899991" />
-    <state width="1323" height="159" key="GridCell.Tab.0.bottom" timestamp="1619346829778">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619346829778" />
-    <state width="1323" height="159" key="GridCell.Tab.0.center" timestamp="1619346829778">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619346829778" />
-    <state width="1323" height="159" key="GridCell.Tab.0.left" timestamp="1619346829777">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619346829777" />
-    <state width="1323" height="159" key="GridCell.Tab.0.right" timestamp="1619346829778">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619346829778" />
-    <state width="1323" height="273" key="GridCell.Tab.1.bottom" timestamp="1619249623568">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619249623568" />
-    <state width="1323" height="273" key="GridCell.Tab.1.center" timestamp="1619249623567">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1619249623567" />
-    <state width="1323" height="273" key="GridCell.Tab.1.left" timestamp="1619249623567">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1619249623567" />
-    <state width="1323" height="273" key="GridCell.Tab.1.right" timestamp="1619249623568">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1619249623568" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1619345886763">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1619345886763" />
+    <state width="1323" height="273" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626885351678" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1625672831307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625672831307" />
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1618831481997">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1628178809579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1366.728@0.0.1366.728" timestamp="1618831481997" />
-    <state x="558" y="243" width="326" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1618629714413">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1628178809579" />
+    <state x="80" y="61" key="new project wizard" timestamp="1627834618714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="558" y="243" width="326" height="241" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1618629714413" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1625671996228">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1625671996228" />
-    <state x="95" y="47" key="new project wizard" timestamp="1625672718966">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="95" y="47" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1625672718966" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1619155465113">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1619155465113" />
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1619256240609">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1619256240609" />
+    <state x="80" y="61" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1627834618714" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
