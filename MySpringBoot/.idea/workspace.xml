@@ -5,33 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39f8d3db-48a7-462a-919f-ad42c288a0ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/springboot-10-shiro-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/config/MyShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/config/MyUserRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/java/com/conquer_java/springboot/controller/MyShiroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/src/main/resources/templates/user/modify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/MySpringCloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/src/main/java/com/conquer_java/springcloud/pojo/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-consumer-department-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-consumer-department-80/src/main/java/com/conquer_java/springcloud/DepartmentConsumer_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-consumer-department-80/src/main/java/com/conquer_java/springcloud/config/MyBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-consumer-department-80/src/main/java/com/conquer_java/springcloud/controller/DepartmentConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-consumer-department-80/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-eureka-server-8888/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-eureka-server-8888/src/main/java/com/conquer_java/springcloud/EurekaServer_8888.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-eureka-server-8888/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/java/com/conquer_java/springcloud/DepartmentProvider_8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/java/com/conquer_java/springcloud/controller/DepartmentProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/java/com/conquer_java/springcloud/mapper/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/java/com/conquer_java/springcloud/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/java/com/conquer_java/springcloud/service/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/resources/mybatis/mapper/department-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8003/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-10-shiro-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-10-shiro-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/MySpringCloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/src/main/java/com/conquer_java/springcloud/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-api/src/main/java/com/conquer_java/springcloud/pojo/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringCloud/springcloud-provider-department-8001/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +152,7 @@
     <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -324,14 +327,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="273" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626885351678" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1625672831307">
+    <state x="-74" y="0" key="SettingsEditor" timestamp="1629029357757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625672831307" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1628178809579">
+    <state x="-74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1629029357757" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1630819675126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1628178809579" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1630819675126" />
     <state x="80" y="61" key="new project wizard" timestamp="1627834618714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

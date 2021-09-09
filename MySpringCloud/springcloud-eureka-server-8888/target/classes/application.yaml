@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+#Eureka configuration
+eureka:
+  instance:
+    hostname: www.eureka-alex.com
+  client:
+    register-with-eureka: false #表示是否向Eureka服务注册中心注册服务
+    fetch-registry: false #表示是否从Eureka服务注册中心订阅服务
+    service-url:
+      #defaultZone: http://www.eureka-alex.com:8761/eureka/ #服务注册中心监控页面地址
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

@@ -1,0 +1,7 @@
+#消费者通过页面访问服务，因此采用默认端口80
+#消费者无需并且不应引用Service服务，那么消费者如何使用服务呢？
+#可以通过RestTemplate类（Ctrl+Shift+Alt+N查找）发送RESTful风格的请求RequestURL
+#
+#xxxxTemplate提供API直接调用即可。若要使用，必须将其注册到Spring中（本身构造器上没有@Bean注解，只能手动注册到Spring的Bean容器中！）。
+server:
+  port: 80

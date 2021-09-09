@@ -7,21 +7,19 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 /**
- * 分布式：
- * 1) 实体类；
- * 2) 序列化——网络传输；
- * 3) ORM——对象关系映射；
- * 注：在微服务架构中，一个服务对应一个数据库，同一信息可能存储于不同数据库。
+ * 1) pojo实体类务必实现序列化，否则将来数据传输报错！
+ * 2) 在微服务架构中，一个服务对应一个数据库，相同信息可能存储于不同数据库，所以Entity类通常包含数据库来源信息；
+ * 3) @Accessors是Lombok的链式注解，支持链式写法：new Department().setDeptName().setDbHome()
  */
 @Data
 @NoArgsConstructor
-@Accessors(chain = true) // 链式写法new Department().setDept_id("xxx").setDept_name("xxx").setDb_source("xxx")
+@Accessors(chain = true)
 public class Department implements Serializable {
-    private long dept_id;
-    private String dept_name;
-    private String db_source;
+    private long deptId;
+    private String deptName;
+    private String dbHome;
 
-    public Department(String dept_name) {
-        this.dept_name = dept_name;
+    public Department(String deptName) {
+        this.deptName = deptName;
     }
 }

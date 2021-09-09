@@ -11,7 +11,6 @@
 
     <artifactId>springcloud-api</artifactId>
 
-    <!--父模块包含依赖可以直接使用-->
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>

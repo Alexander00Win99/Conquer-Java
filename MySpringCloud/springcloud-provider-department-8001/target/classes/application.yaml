@@ -1,0 +1,32 @@
+server:
+  port: 8001
+
+#SpringBoot的mybatis配置和MyBatis核心配置不能重复设置，例如：
+#application.yml中的mybatis.configuration.map-underscore-to-camel: true和
+#mybatis-config.xml的<setting name="mapUnderscoreToCamelCase" value="true"/>不能同时设置。
+mybatis:
+  type-aliases-package: com.conquer_java.springcloud.pojo
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  #configuration:
+    #map-underscore-to-camel-case: true
+
+spring:
+  application:
+    name: springcloud-provider-department-8001
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    #driver-class-name: org.gjt.mm.mysql.Driver # Jetty数据源，当前配置导致报错！
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo_mysql?serverTimezone=UTC&useSSL=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+    dbcp2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+eureka:
+  instance:
+    hostname: www.eureka-alex.com
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8888/eureka/

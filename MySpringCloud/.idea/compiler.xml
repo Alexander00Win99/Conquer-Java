@@ -2,12 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api" />
+        <module name="springcloud-provider-department-8003" />
+        <module name="springcloud-provider-department-8002" />
         <module name="springcloud-provider-department-8001" />
+        <module name="springcloud-provider-department-8000" />
+        <module name="springcloud-consumer-department-80" />
+        <module name="springcloud-eureka-server-8888" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-eureka-8888" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
